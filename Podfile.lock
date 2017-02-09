@@ -27,27 +27,27 @@ PODS:
     - React/Core
 
 DEPENDENCIES:
-  - React/ART (from `./node_modules/react-native`)
-  - React/Core (from `./node_modules/react-native`)
-  - React/RCTActionSheet (from `./node_modules/react-native`)
-  - React/RCTAdSupport (from `./node_modules/react-native`)
-  - React/RCTGeolocation (from `./node_modules/react-native`)
-  - React/RCTImage (from `./node_modules/react-native`)
-  - React/RCTLinkingIOS (from `./node_modules/react-native`)
-  - React/RCTNetwork (from `./node_modules/react-native`)
-  - React/RCTPushNotification (from `./node_modules/react-native`)
-  - React/RCTSettings (from `./node_modules/react-native`)
-  - React/RCTText (from `./node_modules/react-native`)
-  - React/RCTVibration (from `./node_modules/react-native`)
-  - React/RCTWebSocket (from `./node_modules/react-native`)
+  - React/ART (from `./reactnative/node_modules/react-native`)
+  - React/Core (from `./reactnative/node_modules/react-native`)
+  - React/RCTActionSheet (from `./reactnative/node_modules/react-native`)
+  - React/RCTAdSupport (from `./reactnative/node_modules/react-native`)
+  - React/RCTGeolocation (from `./reactnative/node_modules/react-native`)
+  - React/RCTImage (from `./reactnative/node_modules/react-native`)
+  - React/RCTLinkingIOS (from `./reactnative/node_modules/react-native`)
+  - React/RCTNetwork (from `./reactnative/node_modules/react-native`)
+  - React/RCTPushNotification (from `./reactnative/node_modules/react-native`)
+  - React/RCTSettings (from `./reactnative/node_modules/react-native`)
+  - React/RCTText (from `./reactnative/node_modules/react-native`)
+  - React/RCTVibration (from `./reactnative/node_modules/react-native`)
+  - React/RCTWebSocket (from `./reactnative/node_modules/react-native`)
 
 EXTERNAL SOURCES:
   React:
-    :path: "./node_modules/react-native"
+    :path: "./reactnative/node_modules/react-native"
 
 SPEC CHECKSUMS:
   React: 3da805a4fcb127434843924494de838e9658ca78
 
-PODFILE CHECKSUM: bdaf4fc83648ef82beeb7cef5c55f5a6f407c4e0
+PODFILE CHECKSUM: 85728928d3742121a098920fc784165d1b8e8fd5
 
 COCOAPODS: 1.2.0

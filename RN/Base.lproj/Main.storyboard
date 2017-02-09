@@ -28,20 +28,10 @@
                                     <segue destination="4yp-pe-7CR" kind="show" id="C3M-rs-KoK"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nk3-ox-vRc">
-                                <rect key="frame" x="0.0" y="348.5" width="375" height="30"/>
-                                <state key="normal" title="gotoWeb"/>
-                                <connections>
-                                    <segue destination="O7W-3m-JiB" kind="show" id="NuY-4c-6uk"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="nk3-ox-vRc" secondAttribute="trailing" id="QOt-S6-moz"/>
                             <constraint firstItem="pMN-li-bpq" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="RhA-Pa-KlJ"/>
-                            <constraint firstItem="nk3-ox-vRc" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="YSX-j9-72b"/>
-                            <constraint firstItem="nk3-ox-vRc" firstAttribute="top" secondItem="pMN-li-bpq" secondAttribute="bottom" id="a86-gn-aoa"/>
                             <constraint firstItem="pMN-li-bpq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qwX-d8-rM7"/>
                         </constraints>
                     </view>
@@ -68,39 +58,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kvh-6V-lce" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1580" y="-501"/>
-        </scene>
-        <!--Web Controller-->
-        <scene sceneID="dUf-Ob-Smh">
-            <objects>
-                <viewController id="O7W-3m-JiB" customClass="WebController" customModule="RN" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="CrR-CP-muu"/>
-                        <viewControllerLayoutGuide type="bottom" id="b6K-Qc-MXv"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="TLX-7w-QKU">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OFx-zN-9hC">
-                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
-                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </webView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="b6K-Qc-MXv" firstAttribute="top" secondItem="OFx-zN-9hC" secondAttribute="bottom" id="Riy-O2-d12"/>
-                            <constraint firstItem="OFx-zN-9hC" firstAttribute="leading" secondItem="TLX-7w-QKU" secondAttribute="leading" id="UD4-h9-dLt"/>
-                            <constraint firstAttribute="trailing" secondItem="OFx-zN-9hC" secondAttribute="trailing" id="Urd-2z-N0u"/>
-                            <constraint firstItem="OFx-zN-9hC" firstAttribute="top" secondItem="CrR-CP-muu" secondAttribute="bottom" id="uge-U8-pZa"/>
-                        </constraints>
-                    </view>
-                    <connections>
-                        <outlet property="webview" destination="OFx-zN-9hC" id="iBv-r1-EKX"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="XJu-5I-by5" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1412" y="228"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="AzF-aj-TxH">

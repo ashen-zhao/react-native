@@ -11,7 +11,7 @@ class RNController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        let rnview = RNView(frame: CGRect(x: 0, y: 0, width: 300, height: 400))
+        let rnview = RNView(frame: CGRect(x: 0, y: 64, width: 300, height: 400))
         self.view.addSubview(rnview)
     }
 

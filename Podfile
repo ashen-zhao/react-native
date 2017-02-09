@@ -5,7 +5,7 @@ use_frameworks!
 target 'RN' do
   # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
 
- pod 'React', :path => './node_modules/react-native', :subspecs => [
+ pod 'React', :path => './reactnative/node_modules/react-native', :subspecs => [
 'Core',
 'ART',
 'RCTActionSheet',

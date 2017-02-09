@@ -9,24 +9,16 @@ import {
   AppRegistry,
   StyleSheet,
   Text,
-  View
+  View, Image
 } from 'react-native';
 
 class RN extends Component {
   render() {
+    let pic = {
+      uri: 'https://upload.wikimedia.org/wikipedia/commons/d/de/Bananavarieties.jpg'
+    };
     return (
-      <View style={styles.container}>
-        <Text style={styles.welcome}>
-          Hello World
-        </Text>
-        <Text style={styles.instructions}>
-          To get started, edit index.ios.js
-        </Text>
-        <Text style={styles.instructions}>
-          Press Cmd+R to reload,{'\n'}
-          Cmd+D or shake for dev menu
-        </Text>
-      </View>
+        <Image source={pic} style={{width: 193, height: 110}} />
     );
   }
 }

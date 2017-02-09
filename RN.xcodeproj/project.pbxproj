@@ -13,11 +13,8 @@
 		8C4627171E497775002A60BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C4627151E497775002A60BC /* Main.storyboard */; };
 		8C4627191E497775002A60BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C4627181E497775002A60BC /* Assets.xcassets */; };
 		8C46271C1E497775002A60BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C46271A1E497775002A60BC /* LaunchScreen.storyboard */; };
-		8C4627271E499492002A60BC /* index.ios.js in Resources */ = {isa = PBXBuildFile; fileRef = 8C4627251E499492002A60BC /* index.ios.js */; };
-		8C4627281E499492002A60BC /* package.json in Resources */ = {isa = PBXBuildFile; fileRef = 8C4627261E499492002A60BC /* package.json */; };
 		8C46272A1E49972D002A60BC /* RNController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4627291E49972D002A60BC /* RNController.swift */; };
 		8C46272C1E499D3A002A60BC /* RNView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C46272B1E499D3A002A60BC /* RNView.swift */; };
-		8C46272E1E49A1F1002A60BC /* WebController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C46272D1E49A1F1002A60BC /* WebController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,11 +27,8 @@
 		8C4627181E497775002A60BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8C46271B1E497775002A60BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8C46271D1E497775002A60BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8C4627251E499492002A60BC /* index.ios.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = index.ios.js; sourceTree = "<group>"; };
-		8C4627261E499492002A60BC /* package.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = package.json; sourceTree = "<group>"; };
 		8C4627291E49972D002A60BC /* RNController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNController.swift; sourceTree = "<group>"; };
 		8C46272B1E499D3A002A60BC /* RNView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNView.swift; sourceTree = "<group>"; };
-		8C46272D1E49A1F1002A60BC /* WebController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebController.swift; sourceTree = "<group>"; };
 		C09C0028975EF4BABA673CE7 /* Pods_RN.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RN.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -70,8 +64,6 @@
 		8C4627051E497775002A60BC = {
 			isa = PBXGroup;
 			children = (
-				8C4627251E499492002A60BC /* index.ios.js */,
-				8C4627261E499492002A60BC /* package.json */,
 				8C4627101E497775002A60BC /* RN */,
 				8C46270F1E497775002A60BC /* Products */,
 				84075C612C55E4023D7D5FEC /* Pods */,
@@ -98,7 +90,6 @@
 				8C46271D1E497775002A60BC /* Info.plist */,
 				8C4627291E49972D002A60BC /* RNController.swift */,
 				8C46272B1E499D3A002A60BC /* RNView.swift */,
-				8C46272D1E49A1F1002A60BC /* WebController.swift */,
 			);
 			path = RN;
 			sourceTree = "<group>";
@@ -166,11 +157,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C4627271E499492002A60BC /* index.ios.js in Resources */,
 				8C46271C1E497775002A60BC /* LaunchScreen.storyboard in Resources */,
 				8C4627191E497775002A60BC /* Assets.xcassets in Resources */,
 				8C4627171E497775002A60BC /* Main.storyboard in Resources */,
-				8C4627281E499492002A60BC /* package.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,7 +220,6 @@
 			files = (
 				8C4627141E497775002A60BC /* ViewController.swift in Sources */,
 				8C4627121E497775002A60BC /* AppDelegate.swift in Sources */,
-				8C46272E1E49A1F1002A60BC /* WebController.swift in Sources */,
 				8C46272C1E499D3A002A60BC /* RNView.swift in Sources */,
 				8C46272A1E49972D002A60BC /* RNController.swift in Sources */,
 			);
