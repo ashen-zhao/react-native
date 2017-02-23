@@ -1,0 +1,1035 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7568d0b6-8995-4113-9035-22e9a3d1c047" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactnative/node_modules/yeoman-assert/node_modules/path-exists/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactnative/node_modules/yeoman-assert/node_modules/path-exists/license" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactnative/node_modules/yeoman-assert/node_modules/path-exists/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactnative/node_modules/yeoman-assert/node_modules/path-exists/readme.md" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RN.xcworkspace/xcuserdata/ashen.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="$PROJECT_DIR$/RN.xcworkspace/xcuserdata/ashen.xcuserdatad/UserInterfaceState.xcuserstate" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/bufferutil/build/Release/bufferutil.node" afterPath="$PROJECT_DIR$/reactnative/node_modules/bufferutil/build/Release/bufferutil.node" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/bufferutil/build/Release/obj.target/bufferutil/src/bufferutil.o" afterPath="$PROJECT_DIR$/reactnative/node_modules/bufferutil/build/Release/obj.target/bufferutil/src/bufferutil.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/utf-8-validate/build/Release/obj.target/validation/src/validation.o" afterPath="$PROJECT_DIR$/reactnative/node_modules/utf-8-validate/build/Release/obj.target/validation/src/validation.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/utf-8-validate/build/Release/validation.node" afterPath="$PROJECT_DIR$/reactnative/node_modules/utf-8-validate/build/Release/validation.node" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/index.ios.js" afterPath="$PROJECT_DIR$/reactnative/index.ios.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/JSONStream/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/JSONStream/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/abbrev/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/abbrev/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/absolute-path/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/absolute-path/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/accepts/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/accepts/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/acorn-jsx/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/acorn-jsx/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/acorn/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/acorn/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/align-text/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/align-text/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/amdefine/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/amdefine/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/ansi-escapes/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/ansi-escapes/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/ansi-regex/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/ansi-regex/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/ansi-styles/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/ansi-styles/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/ansi/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/ansi/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/anymatch/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/anymatch/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/archive-type/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/archive-type/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/are-we-there-yet/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/are-we-there-yet/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/arr-diff/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/arr-diff/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/arr-flatten/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/arr-flatten/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/array-differ/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/array-differ/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/array-find-index/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/array-find-index/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/array-union/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/array-union/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/array-uniq/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/array-uniq/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/array-unique/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/array-unique/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/arrify/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/arrify/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/art/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/art/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/asap/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/asap/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/ast-query/node_modules/lodash/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/ast-query/node_modules/lodash/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/ast-query/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/ast-query/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/ast-types/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/ast-types/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/async/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/async/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/babel-code-frame/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/babel-code-frame/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/babel-core/node_modules/json5/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/babel-core/node_modules/json5/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/babel-core/node_modules/lodash/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/babel-core/node_modules/lodash/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/babel-core/node_modules/source-map/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/babel-core/node_modules/source-map/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/babel-core/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/babel-core/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/babel-generator/node_modules/lodash/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/babel-generator/node_modules/lodash/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/babel-generator/node_modules/source-map/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/babel-generator/node_modules/source-map/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/babel-generator/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/babel-generator/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/babel-helper-builder-react-jsx/node_modules/lodash/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/babel-helper-builder-react-jsx/node_modules/lodash/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/babel-helper-builder-react-jsx/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/babel-helper-builder-react-jsx/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/babel-helper-call-delegate/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/babel-helper-call-delegate/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/babel-helper-define-map/node_modules/lodash/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/babel-helper-define-map/node_modules/lodash/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/babel-helper-define-map/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/babel-helper-define-map/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/babel-helper-function-name/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/babel-helper-function-name/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/babel-helper-get-function-arity/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/babel-helper-get-function-arity/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/babel-helper-hoist-variables/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/babel-helper-hoist-variables/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/babel-helper-optimise-call-expression/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/babel-helper-optimise-call-expression/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/babel-helper-regex/node_modules/lodash/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/babel-helper-regex/node_modules/lodash/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/babel-helper-regex/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/babel-helper-regex/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/babel-helper-replace-supers/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/babel-helper-replace-supers/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/babel-helpers/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/babel-helpers/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/babel-messages/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/babel-messages/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/babel-plugin-check-es2015-constants/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/babel-plugin-check-es2015-constants/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/babel-plugin-external-helpers/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/babel-plugin-external-helpers/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/babel-plugin-react-transform/node_modules/lodash/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/babel-plugin-react-transform/node_modules/lodash/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/babel-plugin-react-transform/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/babel-plugin-react-transform/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/babel-plugin-syntax-async-functions/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/babel-plugin-syntax-async-functions/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/babel-plugin-syntax-class-properties/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/babel-plugin-syntax-class-properties/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/babel-plugin-syntax-flow/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/babel-plugin-syntax-flow/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/babel-plugin-syntax-jsx/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/babel-plugin-syntax-jsx/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/babel-plugin-syntax-object-rest-spread/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/babel-plugin-syntax-object-rest-spread/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/babel-plugin-syntax-trailing-function-commas/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/babel-plugin-syntax-trailing-function-commas/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/babel-plugin-transform-class-properties/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/babel-plugin-transform-class-properties/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/babel-plugin-transform-es2015-arrow-functions/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/babel-plugin-transform-es2015-arrow-functions/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/babel-plugin-transform-es2015-block-scoped-functions/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/babel-plugin-transform-es2015-block-scoped-functions/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/babel-plugin-transform-es2015-block-scoping/node_modules/lodash/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/babel-plugin-transform-es2015-block-scoping/node_modules/lodash/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/babel-plugin-transform-es2015-block-scoping/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/babel-plugin-transform-es2015-block-scoping/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/babel-plugin-transform-es2015-classes/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/babel-plugin-transform-es2015-classes/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/babel-plugin-transform-es2015-computed-properties/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/babel-plugin-transform-es2015-computed-properties/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/babel-plugin-transform-es2015-destructuring/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/babel-plugin-transform-es2015-destructuring/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/babel-plugin-transform-es2015-for-of/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/babel-plugin-transform-es2015-for-of/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/babel-plugin-transform-es2015-function-name/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/babel-plugin-transform-es2015-function-name/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/babel-plugin-transform-es2015-literals/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/babel-plugin-transform-es2015-literals/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/babel-plugin-transform-es2015-modules-commonjs/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/babel-plugin-transform-es2015-modules-commonjs/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/babel-plugin-transform-es2015-object-super/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/babel-plugin-transform-es2015-object-super/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/babel-plugin-transform-es2015-parameters/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/babel-plugin-transform-es2015-parameters/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/babel-plugin-transform-es2015-shorthand-properties/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/babel-plugin-transform-es2015-shorthand-properties/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/babel-plugin-transform-es2015-spread/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/babel-plugin-transform-es2015-spread/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/babel-plugin-transform-es2015-sticky-regex/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/babel-plugin-transform-es2015-sticky-regex/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/babel-plugin-transform-es2015-template-literals/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/babel-plugin-transform-es2015-template-literals/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/babel-plugin-transform-es2015-unicode-regex/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/babel-plugin-transform-es2015-unicode-regex/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/babel-plugin-transform-es3-member-expression-literals/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/babel-plugin-transform-es3-member-expression-literals/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/babel-plugin-transform-es3-property-literals/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/babel-plugin-transform-es3-property-literals/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/babel-plugin-transform-flow-strip-types/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/babel-plugin-transform-flow-strip-types/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/babel-plugin-transform-object-assign/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/babel-plugin-transform-object-assign/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/babel-plugin-transform-object-rest-spread/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/babel-plugin-transform-object-rest-spread/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/babel-plugin-transform-react-display-name/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/babel-plugin-transform-react-display-name/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/babel-plugin-transform-react-jsx-source/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/babel-plugin-transform-react-jsx-source/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/babel-plugin-transform-react-jsx/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/babel-plugin-transform-react-jsx/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/babel-plugin-transform-regenerator/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/babel-plugin-transform-regenerator/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/babel-plugin-transform-strict-mode/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/babel-plugin-transform-strict-mode/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/babel-polyfill/node_modules/core-js/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/babel-polyfill/node_modules/core-js/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/babel-polyfill/node_modules/regenerator-runtime/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/babel-polyfill/node_modules/regenerator-runtime/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/babel-polyfill/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/babel-polyfill/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/babel-preset-es2015-node/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/babel-preset-es2015-node/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/babel-preset-fbjs/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/babel-preset-fbjs/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/babel-preset-react-native/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/babel-preset-react-native/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/babel-register/node_modules/core-js/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/babel-register/node_modules/core-js/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/babel-register/node_modules/lodash/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/babel-register/node_modules/lodash/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/babel-register/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/babel-register/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/babel-runtime/node_modules/core-js/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/babel-runtime/node_modules/core-js/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/babel-runtime/node_modules/regenerator-runtime/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/babel-runtime/node_modules/regenerator-runtime/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/babel-runtime/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/babel-runtime/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/babel-template/node_modules/lodash/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/babel-template/node_modules/lodash/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/babel-template/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/babel-template/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/babel-traverse/node_modules/lodash/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/babel-traverse/node_modules/lodash/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/babel-traverse/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/babel-traverse/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/babel-types/node_modules/lodash/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/babel-types/node_modules/lodash/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/babel-types/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/babel-types/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/babylon/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/babylon/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/balanced-match/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/balanced-match/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/base62/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/base62/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/base64-js/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/base64-js/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/base64-url/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/base64-url/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/basic-auth-connect/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/basic-auth-connect/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/basic-auth/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/basic-auth/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/batch/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/batch/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/beeper/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/beeper/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/binaryextensions/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/binaryextensions/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/bindings/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/bindings/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/bl/node_modules/isarray/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/bl/node_modules/isarray/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/bl/node_modules/readable-stream/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/bl/node_modules/readable-stream/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/bl/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/bl/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/body-parser/node_modules/debug/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/body-parser/node_modules/debug/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/body-parser/node_modules/iconv-lite/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/body-parser/node_modules/iconv-lite/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/body-parser/node_modules/ms/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/body-parser/node_modules/ms/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/body-parser/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/body-parser/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/boolbase/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/boolbase/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/bplist-creator/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/bplist-creator/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/bplist-parser/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/bplist-parser/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/brace-expansion/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/brace-expansion/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/braces/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/braces/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/browser-resolve/node_modules/resolve/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/browser-resolve/node_modules/resolve/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/browser-resolve/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/browser-resolve/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/bser/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/bser/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/buffer-crc32/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/buffer-crc32/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/buffer-shims/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/buffer-shims/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/buffer-to-vinyl/node_modules/isarray/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/buffer-to-vinyl/node_modules/isarray/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/buffer-to-vinyl/node_modules/readable-stream/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/buffer-to-vinyl/node_modules/readable-stream/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/buffer-to-vinyl/node_modules/vinyl/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/buffer-to-vinyl/node_modules/vinyl/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/buffer-to-vinyl/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/buffer-to-vinyl/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/bufferutil/build/Makefile" afterPath="$PROJECT_DIR$/reactnative/node_modules/bufferutil/build/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/bufferutil/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/bufferutil/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/builtin-modules/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/builtin-modules/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/bytes/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/bytes/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/camelcase-keys/node_modules/camelcase/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/camelcase-keys/node_modules/camelcase/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/camelcase-keys/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/camelcase-keys/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/camelcase/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/camelcase/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/capture-stack-trace/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/capture-stack-trace/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/caw/node_modules/object-assign/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/caw/node_modules/object-assign/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/caw/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/caw/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/center-align/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/center-align/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/chalk/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/chalk/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/cheerio/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/cheerio/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/class-extend/node_modules/object-assign/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/class-extend/node_modules/object-assign/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/class-extend/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/class-extend/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/cli-cursor/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/cli-cursor/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/cli-table/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/cli-table/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/cli-width/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/cli-width/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/cliui/node_modules/wordwrap/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/cliui/node_modules/wordwrap/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/cliui/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/cliui/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/clone-stats/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/clone-stats/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/clone/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/clone/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/co/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/co/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/code-point-at/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/code-point-at/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/colors/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/colors/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/commander/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/commander/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/commondir/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/commondir/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/commoner/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/commoner/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/compressible/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/compressible/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/compression/node_modules/debug/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/compression/node_modules/debug/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/compression/node_modules/ms/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/compression/node_modules/ms/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/compression/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/compression/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/concat-map/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/concat-map/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/concat-stream/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/concat-stream/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/connect-timeout/node_modules/debug/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/connect-timeout/node_modules/debug/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/connect-timeout/node_modules/ms/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/connect-timeout/node_modules/ms/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/connect-timeout/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/connect-timeout/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/connect/node_modules/debug/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/connect/node_modules/debug/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/connect/node_modules/ms/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/connect/node_modules/ms/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/connect/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/connect/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/content-type/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/content-type/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/convert-source-map/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/convert-source-map/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/cookie-parser/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/cookie-parser/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/cookie-signature/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/cookie-signature/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/cookie/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/cookie/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/core-js/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/core-js/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/core-util-is/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/core-util-is/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/crc/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/crc/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/create-error-class/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/create-error-class/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/cross-spawn-async/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/cross-spawn-async/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/cross-spawn/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/cross-spawn/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/csrf/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/csrf/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/css-select/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/css-select/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/css-what/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/css-what/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/csurf/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/csurf/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/currently-unhandled/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/currently-unhandled/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/dargs/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/dargs/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/dateformat/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/dateformat/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/debug/CHANGELOG.md" afterPath="$PROJECT_DIR$/reactnative/node_modules/debug/CHANGELOG.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/debug/Makefile" afterPath="$PROJECT_DIR$/reactnative/node_modules/debug/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/debug/component.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/debug/component.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/debug/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/debug/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/debug/src/debug.js" afterPath="$PROJECT_DIR$/reactnative/node_modules/debug/src/debug.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/debug/src/node.js" afterPath="$PROJECT_DIR$/reactnative/node_modules/debug/src/node.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/decamelize/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/decamelize/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/decompress-tar/node_modules/clone/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/decompress-tar/node_modules/clone/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/decompress-tar/node_modules/object-assign/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/decompress-tar/node_modules/object-assign/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/decompress-tar/node_modules/readable-stream/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/decompress-tar/node_modules/readable-stream/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/decompress-tar/node_modules/through2/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/decompress-tar/node_modules/through2/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/decompress-tar/node_modules/vinyl/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/decompress-tar/node_modules/vinyl/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/decompress-tar/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/decompress-tar/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/decompress-tarbz2/node_modules/clone/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/decompress-tarbz2/node_modules/clone/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/decompress-tarbz2/node_modules/object-assign/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/decompress-tarbz2/node_modules/object-assign/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/decompress-tarbz2/node_modules/readable-stream/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/decompress-tarbz2/node_modules/readable-stream/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/decompress-tarbz2/node_modules/through2/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/decompress-tarbz2/node_modules/through2/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/decompress-tarbz2/node_modules/vinyl/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/decompress-tarbz2/node_modules/vinyl/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/decompress-tarbz2/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/decompress-tarbz2/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/decompress-targz/node_modules/clone/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/decompress-targz/node_modules/clone/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/decompress-targz/node_modules/object-assign/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/decompress-targz/node_modules/object-assign/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/decompress-targz/node_modules/readable-stream/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/decompress-targz/node_modules/readable-stream/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/decompress-targz/node_modules/through2/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/decompress-targz/node_modules/through2/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/decompress-targz/node_modules/vinyl/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/decompress-targz/node_modules/vinyl/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/decompress-targz/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/decompress-targz/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/decompress-unzip/node_modules/vinyl/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/decompress-unzip/node_modules/vinyl/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/decompress-unzip/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/decompress-unzip/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/decompress/node_modules/duplexer2/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/decompress/node_modules/duplexer2/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/decompress/node_modules/isarray/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/decompress/node_modules/isarray/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/decompress/node_modules/readable-stream/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/decompress/node_modules/readable-stream/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/decompress/node_modules/stream-combiner2/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/decompress/node_modules/stream-combiner2/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/decompress/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/decompress/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/deep-extend/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/deep-extend/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/deep-is/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/deep-is/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/defined/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/defined/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/delegates/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/delegates/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/denodeify/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/denodeify/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/depd/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/depd/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/destroy/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/destroy/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/detect-conflict/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/detect-conflict/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/detect-indent/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/detect-indent/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/detect-newline/node_modules/minimist/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/detect-newline/node_modules/minimist/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/detect-newline/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/detect-newline/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/detective/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/detective/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/diff/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/diff/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/dom-serializer/node_modules/domelementtype/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/dom-serializer/node_modules/domelementtype/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/dom-serializer/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/dom-serializer/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/dom-walk/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/dom-walk/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/domelementtype/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/domelementtype/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/domhandler/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/domhandler/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/domutils/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/domutils/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/download/node_modules/duplexer2/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/download/node_modules/duplexer2/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/download/node_modules/isarray/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/download/node_modules/isarray/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/download/node_modules/readable-stream/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/download/node_modules/readable-stream/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/download/node_modules/stream-combiner2/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/download/node_modules/stream-combiner2/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/download/node_modules/vinyl/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/download/node_modules/vinyl/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/download/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/download/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/duplexer2/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/duplexer2/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/duplexify/node_modules/end-of-stream/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/duplexify/node_modules/end-of-stream/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/duplexify/node_modules/isarray/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/duplexify/node_modules/isarray/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/duplexify/node_modules/once/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/duplexify/node_modules/once/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/duplexify/node_modules/readable-stream/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/duplexify/node_modules/readable-stream/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/duplexify/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/duplexify/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/each-async/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/each-async/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/ee-first/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/ee-first/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/ejs/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/ejs/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/encoding/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/encoding/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/end-of-stream/node_modules/once/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/end-of-stream/node_modules/once/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/end-of-stream/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/end-of-stream/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/entities/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/entities/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/errno/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/errno/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/error-ex/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/error-ex/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/errorhandler/node_modules/accepts/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/errorhandler/node_modules/accepts/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/errorhandler/node_modules/negotiator/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/errorhandler/node_modules/negotiator/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/errorhandler/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/errorhandler/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/escape-html/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/escape-html/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/escape-string-regexp/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/escape-string-regexp/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/escodegen-wallaby/node_modules/esprima/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/escodegen-wallaby/node_modules/esprima/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/escodegen-wallaby/node_modules/source-map/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/escodegen-wallaby/node_modules/source-map/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/escodegen-wallaby/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/escodegen-wallaby/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/esprima-fb/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/esprima-fb/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/estraverse/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/estraverse/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/esutils/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/esutils/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/etag/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/etag/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/event-target-shim/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/event-target-shim/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/exec-sh/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/exec-sh/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/exit-hook/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/exit-hook/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/expand-brackets/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/expand-brackets/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/expand-range/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/expand-range/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/express-session/node_modules/base64-url/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/express-session/node_modules/base64-url/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/express-session/node_modules/debug/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/express-session/node_modules/debug/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/express-session/node_modules/ms/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/express-session/node_modules/ms/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/express-session/node_modules/uid-safe/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/express-session/node_modules/uid-safe/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/express-session/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/express-session/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/extend-shallow/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/extend-shallow/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/extend/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/extend/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/external-editor/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/external-editor/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/extglob/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/extglob/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/fancy-log/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/fancy-log/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/fast-levenshtein/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/fast-levenshtein/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/fb-watchman/node_modules/bser/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/fb-watchman/node_modules/bser/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/fb-watchman/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/fb-watchman/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/fbjs-scripts/node_modules/babel-preset-fbjs/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/fbjs-scripts/node_modules/babel-preset-fbjs/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/fbjs-scripts/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/fbjs-scripts/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/fbjs/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/fbjs/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/fd-slicer/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/fd-slicer/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/figures/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/figures/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/file-type/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/file-type/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/filename-regex/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/filename-regex/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/filename-reserved-regex/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/filename-reserved-regex/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/filenamify/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/filenamify/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/fill-range/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/fill-range/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/finalhandler/node_modules/debug/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/finalhandler/node_modules/debug/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/finalhandler/node_modules/escape-html/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/finalhandler/node_modules/escape-html/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/finalhandler/node_modules/ms/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/finalhandler/node_modules/ms/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/finalhandler/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/finalhandler/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/find-up/node_modules/path-exists/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/find-up/node_modules/path-exists/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/find-up/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/find-up/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/findup-sync/node_modules/glob/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/findup-sync/node_modules/glob/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/findup-sync/node_modules/minimatch/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/findup-sync/node_modules/minimatch/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/findup-sync/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/findup-sync/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/first-chunk-stream/node_modules/isarray/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/first-chunk-stream/node_modules/isarray/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/first-chunk-stream/node_modules/readable-stream/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/first-chunk-stream/node_modules/readable-stream/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/first-chunk-stream/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/first-chunk-stream/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/for-in/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/for-in/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/for-own/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/for-own/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/formatio/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/formatio/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/fresh/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/fresh/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/fs-extra/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/fs-extra/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/fs.realpath/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/fs.realpath/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/gauge/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/gauge/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/get-proxy/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/get-proxy/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/get-stdin/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/get-stdin/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/gh-got/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/gh-got/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/github-username/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/github-username/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/glob-base/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/glob-base/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/glob-parent/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/glob-parent/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/glob-stream/node_modules/glob-parent/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/glob-stream/node_modules/glob-parent/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/glob-stream/node_modules/is-extglob/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/glob-stream/node_modules/is-extglob/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/glob-stream/node_modules/is-glob/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/glob-stream/node_modules/is-glob/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/glob-stream/node_modules/readable-stream/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/glob-stream/node_modules/readable-stream/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/glob-stream/node_modules/through2/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/glob-stream/node_modules/through2/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/glob-stream/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/glob-stream/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/glob/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/glob/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/global/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/global/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/globals/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/globals/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/globby/node_modules/glob/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/globby/node_modules/glob/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/globby/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/globby/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/glogg/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/glogg/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/got/node_modules/duplexer2/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/got/node_modules/duplexer2/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/got/node_modules/isarray/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/got/node_modules/isarray/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/got/node_modules/readable-stream/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/got/node_modules/readable-stream/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/got/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/got/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/graceful-fs/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/graceful-fs/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/graceful-readlink/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/graceful-readlink/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/grouped-queue/node_modules/lodash/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/grouped-queue/node_modules/lodash/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/grouped-queue/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/grouped-queue/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/gruntfile-editor/node_modules/lodash/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/gruntfile-editor/node_modules/lodash/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/gruntfile-editor/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/gruntfile-editor/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/gulp-decompress/node_modules/isarray/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/gulp-decompress/node_modules/isarray/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/gulp-decompress/node_modules/readable-stream/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/gulp-decompress/node_modules/readable-stream/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/gulp-decompress/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/gulp-decompress/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/gulp-rename/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/gulp-rename/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/gulp-sourcemaps/node_modules/vinyl/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/gulp-sourcemaps/node_modules/vinyl/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/gulp-sourcemaps/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/gulp-sourcemaps/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/gulp-util/node_modules/minimist/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/gulp-util/node_modules/minimist/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/gulp-util/node_modules/object-assign/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/gulp-util/node_modules/object-assign/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/gulp-util/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/gulp-util/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/gulplog/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/gulplog/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/has-ansi/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/has-ansi/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/has-gulplog/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/has-gulplog/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/has-unicode/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/has-unicode/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/hoek/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/hoek/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/home-or-tmp/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/home-or-tmp/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/hosted-git-info/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/hosted-git-info/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/html-wiring/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/html-wiring/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/htmlparser2/node_modules/domutils/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/htmlparser2/node_modules/domutils/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/htmlparser2/node_modules/entities/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/htmlparser2/node_modules/entities/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/htmlparser2/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/htmlparser2/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/http-errors/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/http-errors/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/iconv-lite/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/iconv-lite/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/image-size/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/image-size/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/immutable/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/immutable/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/indent-string/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/indent-string/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/inflight/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/inflight/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/inherits/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/inherits/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/ini/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/ini/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/inquirer/node_modules/lodash/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/inquirer/node_modules/lodash/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/inquirer/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/inquirer/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/invariant/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/invariant/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/invert-kv/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/invert-kv/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/is-absolute/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/is-absolute/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/is-arrayish/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/is-arrayish/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/is-buffer/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/is-buffer/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/is-builtin-module/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/is-builtin-module/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/is-bzip2/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/is-bzip2/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/is-dotfile/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/is-dotfile/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/is-equal-shallow/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/is-equal-shallow/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/is-extendable/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/is-extendable/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/is-extglob/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/is-extglob/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/is-finite/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/is-finite/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/is-fullwidth-code-point/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/is-fullwidth-code-point/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/is-glob/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/is-glob/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/is-gzip/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/is-gzip/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/is-natural-number/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/is-natural-number/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/is-number/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/is-number/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/is-obj/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/is-obj/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/is-posix-bracket/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/is-posix-bracket/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/is-primitive/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/is-primitive/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/is-promise/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/is-promise/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/is-redirect/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/is-redirect/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/is-relative/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/is-relative/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/is-retry-allowed/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/is-retry-allowed/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/is-stream/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/is-stream/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/is-tar/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/is-tar/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/is-url/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/is-url/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/is-utf8/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/is-utf8/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/is-valid-glob/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/is-valid-glob/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/is-zip/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/is-zip/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/isarray/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/isarray/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/isemail/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/isemail/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/isexe/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/isexe/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/isobject/node_modules/isarray/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/isobject/node_modules/isarray/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/isobject/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/isobject/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/isomorphic-fetch/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/isomorphic-fetch/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/istextorbinary/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/istextorbinary/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/joi/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/joi/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/js-tokens/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/js-tokens/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/jsesc/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/jsesc/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/json-stable-stringify/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/json-stable-stringify/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/json5/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/json5/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/jsonfile/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/jsonfile/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/jsonify/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/jsonify/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/jsonparse/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/jsonparse/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/jstransform/node_modules/object-assign/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/jstransform/node_modules/object-assign/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/jstransform/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/jstransform/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/kind-of/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/kind-of/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/klaw/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/klaw/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/lazy-cache/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/lazy-cache/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/lazystream/node_modules/isarray/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/lazystream/node_modules/isarray/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/lazystream/node_modules/readable-stream/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/lazystream/node_modules/readable-stream/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/lazystream/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/lazystream/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/lcid/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/lcid/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/levn/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/levn/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/load-json-file/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/load-json-file/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/lodash._basecopy/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/lodash._basecopy/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/lodash._basetostring/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/lodash._basetostring/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/lodash._basevalues/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/lodash._basevalues/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/lodash._getnative/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/lodash._getnative/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/lodash._isiterateecall/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/lodash._isiterateecall/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/lodash._reescape/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/lodash._reescape/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/lodash._reevaluate/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/lodash._reevaluate/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/lodash._reinterpolate/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/lodash._reinterpolate/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/lodash._root/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/lodash._root/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/lodash.escape/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/lodash.escape/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/lodash.isarguments/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/lodash.isarguments/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/lodash.isarray/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/lodash.isarray/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/lodash.isequal/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/lodash.isequal/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/lodash.keys/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/lodash.keys/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/lodash.pad/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/lodash.pad/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/lodash.padend/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/lodash.padend/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/lodash.padstart/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/lodash.padstart/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/lodash.restparam/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/lodash.restparam/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/lodash.template/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/lodash.template/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/lodash.templatesettings/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/lodash.templatesettings/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/lodash/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/lodash/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/log-symbols/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/log-symbols/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/lolex/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/lolex/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/longest/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/longest/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/loose-envify/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/loose-envify/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/loud-rejection/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/loud-rejection/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/lowercase-keys/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/lowercase-keys/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/lru-cache/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/lru-cache/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/makeerror/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/makeerror/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/map-obj/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/map-obj/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/media-typer/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/media-typer/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/mem-fs-editor/node_modules/glob/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/mem-fs-editor/node_modules/glob/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/mem-fs-editor/node_modules/vinyl/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/mem-fs-editor/node_modules/vinyl/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/mem-fs-editor/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/mem-fs-editor/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/mem-fs/node_modules/vinyl/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/mem-fs/node_modules/vinyl/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/mem-fs/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/mem-fs/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/meow/node_modules/minimist/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/meow/node_modules/minimist/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/meow/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/meow/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/merge-stream/node_modules/isarray/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/merge-stream/node_modules/isarray/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/merge-stream/node_modules/readable-stream/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/merge-stream/node_modules/readable-stream/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/merge-stream/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/merge-stream/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/merge/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/merge/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/method-override/node_modules/debug/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/method-override/node_modules/debug/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/method-override/node_modules/vary/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/method-override/node_modules/vary/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/method-override/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/method-override/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/methods/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/methods/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/micromatch/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/micromatch/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/mime-db/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/mime-db/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/mime-types/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/mime-types/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/mime/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/mime/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/min-document/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/min-document/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/minimatch/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/minimatch/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/minimist/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/minimist/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/mkdirp/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/mkdirp/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/module-deps/node_modules/through2/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/module-deps/node_modules/through2/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/module-deps/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/module-deps/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/moment/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/moment/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/morgan/node_modules/debug/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/morgan/node_modules/debug/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/morgan/node_modules/ms/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/morgan/node_modules/ms/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/morgan/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/morgan/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/ms/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/ms/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/multimatch/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/multimatch/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/multiparty/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/multiparty/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/multipipe/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/multipipe/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/mute-stream/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/mute-stream/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/nan/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/nan/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/negotiator/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/negotiator/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/node-fetch/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/node-fetch/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/node-haste/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/node-haste/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/node-int64/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/node-int64/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/node-status-codes/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/node-status-codes/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/node-uuid/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/node-uuid/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/nopt/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/nopt/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/normalize-package-data/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/normalize-package-data/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/normalize-path/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/normalize-path/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/npmlog/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/npmlog/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/nth-check/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/nth-check/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/number-is-nan/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/number-is-nan/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/object-assign/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/object-assign/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/object.omit/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/object.omit/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/on-finished/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/on-finished/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/on-headers/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/on-headers/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/once/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/once/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/onetime/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/onetime/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/opn/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/opn/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/optimist/node_modules/wordwrap/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/optimist/node_modules/wordwrap/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/optimist/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/optimist/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/optionator/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/optionator/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/options/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/options/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/ordered-read-streams/node_modules/isarray/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/ordered-read-streams/node_modules/isarray/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/ordered-read-streams/node_modules/readable-stream/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/ordered-read-streams/node_modules/readable-stream/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/ordered-read-streams/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/ordered-read-streams/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/os-homedir/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/os-homedir/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/os-locale/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/os-locale/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/os-shim/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/os-shim/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/os-tmpdir/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/os-tmpdir/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/parents/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/parents/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/parse-glob/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/parse-glob/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/parse-json/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/parse-json/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/parseurl/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/parseurl/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/path-dirname/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/path-dirname/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/path-exists/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/path-exists/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/path-is-absolute/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/path-is-absolute/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/path-platform/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/path-platform/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/path-type/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/path-type/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/pause/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/pause/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/pegjs/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/pegjs/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/pend/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/pend/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/pify/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/pify/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/pinkie-promise/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/pinkie-promise/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/pinkie/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/pinkie/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/plist/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/plist/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/prelude-ls/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/prelude-ls/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/prepend-http/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/prepend-http/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/preserve/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/preserve/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/pretty-bytes/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/pretty-bytes/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/private/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/private/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/process-nextick-args/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/process-nextick-args/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/process/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/process/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/progress/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/progress/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/promise/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/promise/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/prr/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/prr/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/pseudomap/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/pseudomap/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/q/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/q/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/qs/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/qs/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/random-bytes/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/random-bytes/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/randomatic/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/randomatic/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/range-parser/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/range-parser/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/raw-body/node_modules/bytes/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/raw-body/node_modules/bytes/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/raw-body/node_modules/iconv-lite/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/raw-body/node_modules/iconv-lite/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/raw-body/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/raw-body/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/rc/node_modules/minimist/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/rc/node_modules/minimist/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/rc/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/rc/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/react-clone-referenced-element/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/react-clone-referenced-element/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/react-deep-force-update/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/react-deep-force-update/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/react-native/node_modules/core-js/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/react-native/node_modules/core-js/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/react-native/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/react-native/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/react-proxy/node_modules/lodash/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/react-proxy/node_modules/lodash/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/react-proxy/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/react-proxy/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/react-timer-mixin/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/react-timer-mixin/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/react-transform-hmr/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/react-transform-hmr/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/react/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/react/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/read-all-stream/node_modules/isarray/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/read-all-stream/node_modules/isarray/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/read-all-stream/node_modules/readable-stream/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/read-all-stream/node_modules/readable-stream/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/read-all-stream/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/read-all-stream/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/read-chunk/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/read-chunk/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/read-pkg-up/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/read-pkg-up/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/read-pkg/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/read-pkg/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/readable-stream/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/readable-stream/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/readline2/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/readline2/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/rebound/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/rebound/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/recast/node_modules/esprima/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/recast/node_modules/esprima/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/recast/node_modules/source-map/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/recast/node_modules/source-map/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/recast/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/recast/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/redent/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/redent/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/regenerate/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/regenerate/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/regenerator-runtime/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/regenerator-runtime/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/regenerator-transform/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/regenerator-transform/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/regex-cache/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/regex-cache/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/regexpu-core/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/regexpu-core/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/regjsgen/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/regjsgen/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/regjsparser/node_modules/jsesc/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/regjsparser/node_modules/jsesc/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/regjsparser/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/regjsparser/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/repeat-element/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/repeat-element/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/repeat-string/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/repeat-string/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/repeating/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/repeating/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/replace-ext/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/replace-ext/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/resolve/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/resolve/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/response-time/node_modules/depd/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/response-time/node_modules/depd/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/response-time/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/response-time/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/restore-cursor/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/restore-cursor/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/right-align/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/right-align/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/rimraf/node_modules/glob/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/rimraf/node_modules/glob/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/rimraf/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/rimraf/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/rndm/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/rndm/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/run-async/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/run-async/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/rx-lite/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/rx-lite/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/rx/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/rx/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/samsam/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/samsam/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/sane/node_modules/minimist/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/sane/node_modules/minimist/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/sane/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/sane/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/sax/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/sax/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/seek-bzip/node_modules/commander/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/seek-bzip/node_modules/commander/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/seek-bzip/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/seek-bzip/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/semver/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/semver/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/send/node_modules/debug/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/send/node_modules/debug/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/send/node_modules/depd/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/send/node_modules/depd/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/send/node_modules/ms/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/send/node_modules/ms/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/send/node_modules/statuses/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/send/node_modules/statuses/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/send/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/send/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/serve-favicon/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/serve-favicon/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/serve-index/node_modules/debug/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/serve-index/node_modules/debug/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/serve-index/node_modules/ms/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/serve-index/node_modules/ms/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/serve-index/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/serve-index/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/serve-static/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/serve-static/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/set-immediate-shim/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/set-immediate-shim/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/setimmediate/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/setimmediate/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/shelljs/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/shelljs/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/signal-exit/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/signal-exit/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/simple-plist/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/simple-plist/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/sinon/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/sinon/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/slash/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/slash/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/source-map-support/node_modules/source-map/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/source-map-support/node_modules/source-map/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/source-map-support/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/source-map-support/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/source-map/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/source-map/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/sparkles/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/sparkles/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/spawn-sync/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/spawn-sync/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/spdx-correct/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/spdx-correct/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/spdx-expression-parse/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/spdx-expression-parse/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/spdx-license-ids/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/spdx-license-ids/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/sprintf-js/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/sprintf-js/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/stacktrace-parser/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/stacktrace-parser/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/stat-mode/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/stat-mode/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/statuses/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/statuses/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/stream-buffers/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/stream-buffers/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/stream-combiner2/node_modules/readable-stream/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/stream-combiner2/node_modules/readable-stream/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/stream-combiner2/node_modules/through2/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/stream-combiner2/node_modules/through2/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/stream-combiner2/node_modules/xtend/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/stream-combiner2/node_modules/xtend/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/stream-combiner2/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/stream-combiner2/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/stream-counter/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/stream-counter/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/stream-shift/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/stream-shift/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/string-width/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/string-width/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/string_decoder/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/string_decoder/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/strip-ansi/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/strip-ansi/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/strip-bom-stream/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/strip-bom-stream/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/strip-bom/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/strip-bom/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/strip-dirs/node_modules/minimist/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/strip-dirs/node_modules/minimist/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/strip-dirs/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/strip-dirs/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/strip-indent/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/strip-indent/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/strip-json-comments/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/strip-json-comments/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/strip-outer/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/strip-outer/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/subarg/node_modules/minimist/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/subarg/node_modules/minimist/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/subarg/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/subarg/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/sum-up/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/sum-up/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/supports-color/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/supports-color/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/tar-stream/node_modules/isarray/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/tar-stream/node_modules/isarray/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/tar-stream/node_modules/readable-stream/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/tar-stream/node_modules/readable-stream/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/tar-stream/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/tar-stream/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/temp/node_modules/rimraf/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/temp/node_modules/rimraf/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/temp/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/temp/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/text-table/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/text-table/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/textextensions/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/textextensions/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/through/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/through/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/through2-filter/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/through2-filter/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/through2/node_modules/isarray/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/through2/node_modules/isarray/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/through2/node_modules/readable-stream/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/through2/node_modules/readable-stream/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/through2/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/through2/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/time-stamp/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/time-stamp/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/timed-out/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/timed-out/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/tmp/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/tmp/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/tmpl/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/tmpl/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/to-absolute-glob/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/to-absolute-glob/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/to-fast-properties/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/to-fast-properties/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/topo/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/topo/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/traverse/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/traverse/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/trim-newlines/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/trim-newlines/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/trim-repeated/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/trim-repeated/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/tsscmp/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/tsscmp/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/tunnel-agent/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/tunnel-agent/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/type-check/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/type-check/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/type-is/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/type-is/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/typedarray/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/typedarray/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/ua-parser-js/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/ua-parser-js/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/uglify-js/node_modules/source-map/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/uglify-js/node_modules/source-map/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/uglify-js/node_modules/yargs/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/uglify-js/node_modules/yargs/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/uglify-js/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/uglify-js/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/uglify-to-browserify/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/uglify-to-browserify/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/uid-safe/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/uid-safe/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/ultron/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/ultron/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/underscore.string/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/underscore.string/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/unique-stream/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/unique-stream/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/unpipe/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/unpipe/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/untildify/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/untildify/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/unzip-response/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/unzip-response/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/url-parse-lax/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/url-parse-lax/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/user-home/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/user-home/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/utf-8-validate/build/Makefile" afterPath="$PROJECT_DIR$/reactnative/node_modules/utf-8-validate/build/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/utf-8-validate/node_modules/nan/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/utf-8-validate/node_modules/nan/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/utf-8-validate/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/utf-8-validate/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/util-deprecate/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/util-deprecate/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/util/node_modules/inherits/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/util/node_modules/inherits/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/util/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/util/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/utils-merge/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/utils-merge/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/uuid/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/uuid/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/vali-date/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/vali-date/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/validate-npm-package-license/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/validate-npm-package-license/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/vary/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/vary/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/vhost/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/vhost/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/vinyl-assign/node_modules/isarray/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/vinyl-assign/node_modules/isarray/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/vinyl-assign/node_modules/readable-stream/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/vinyl-assign/node_modules/readable-stream/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/vinyl-assign/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/vinyl-assign/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/vinyl-file/node_modules/vinyl/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/vinyl-file/node_modules/vinyl/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/vinyl-file/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/vinyl-file/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/vinyl-fs/node_modules/first-chunk-stream/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/vinyl-fs/node_modules/first-chunk-stream/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/vinyl-fs/node_modules/isarray/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/vinyl-fs/node_modules/isarray/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/vinyl-fs/node_modules/readable-stream/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/vinyl-fs/node_modules/readable-stream/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/vinyl-fs/node_modules/strip-bom-stream/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/vinyl-fs/node_modules/strip-bom-stream/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/vinyl-fs/node_modules/vinyl/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/vinyl-fs/node_modules/vinyl/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/vinyl-fs/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/vinyl-fs/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/vinyl/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/vinyl/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/walker/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/walker/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/ware/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/ware/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/watch/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/watch/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/whatwg-fetch/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/whatwg-fetch/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/which/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/which/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/window-size/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/window-size/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/wordwrap/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/wordwrap/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/worker-farm/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/worker-farm/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/wrap-ansi/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/wrap-ansi/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/wrap-fn/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/wrap-fn/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/wrappy/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/wrappy/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/ws/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/ws/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/xcode/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/xcode/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/xdg-basedir/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/xdg-basedir/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/xmlbuilder/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/xmlbuilder/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/xmldoc/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/xmldoc/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/xmldom/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/xmldom/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/xtend/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/xtend/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/y18n/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/y18n/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/yallist/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/yallist/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/yargs/node_modules/camelcase/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/yargs/node_modules/camelcase/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/yargs/node_modules/cliui/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/yargs/node_modules/cliui/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/yargs/node_modules/window-size/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/yargs/node_modules/window-size/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/yargs/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/yargs/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/yauzl/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/yauzl/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/yeoman-assert/index.js" afterPath="$PROJECT_DIR$/reactnative/node_modules/yeoman-assert/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/yeoman-assert/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/yeoman-assert/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/yeoman-environment/node_modules/inquirer/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/yeoman-environment/node_modules/inquirer/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/yeoman-environment/node_modules/lodash/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/yeoman-environment/node_modules/lodash/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/yeoman-environment/node_modules/mute-stream/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/yeoman-environment/node_modules/mute-stream/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/yeoman-environment/node_modules/run-async/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/yeoman-environment/node_modules/run-async/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/yeoman-environment/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/yeoman-environment/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/yeoman-generator/node_modules/ansi-regex/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/yeoman-generator/node_modules/ansi-regex/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/yeoman-generator/node_modules/async/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/yeoman-generator/node_modules/async/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/yeoman-generator/node_modules/cli-width/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/yeoman-generator/node_modules/cli-width/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/yeoman-generator/node_modules/cross-spawn/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/yeoman-generator/node_modules/cross-spawn/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/yeoman-generator/node_modules/dateformat/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/yeoman-generator/node_modules/dateformat/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/yeoman-generator/node_modules/inquirer/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/yeoman-generator/node_modules/inquirer/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/yeoman-generator/node_modules/mute-stream/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/yeoman-generator/node_modules/mute-stream/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/yeoman-generator/node_modules/readline2/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/yeoman-generator/node_modules/readline2/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/yeoman-generator/node_modules/rx/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/yeoman-generator/node_modules/rx/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/yeoman-generator/node_modules/strip-ansi/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/yeoman-generator/node_modules/strip-ansi/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/yeoman-generator/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/yeoman-generator/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/node_modules/yeoman-welcome/package.json" afterPath="$PROJECT_DIR$/reactnative/node_modules/yeoman-welcome/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactnative/package.json" afterPath="$PROJECT_DIR$/reactnative/package.json" />
+    </list>
+    <ignored path="RN.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="RN" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="index.ios.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/reactnative/index.ios.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="31" column="71" selection-start-line="31" selection-start-column="71" selection-end-line="31" selection-end-column="71" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#89#130#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/../ULife/autobuild.py" />
+        <option value="$PROJECT_DIR$/reactnative/index.ios.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/reactnative/node_modules" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="58" />
+    <option name="y" value="28" />
+    <option name="width" value="1362" />
+    <option name="height" value="837" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
+    <property name="jsx.switch.disabled" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7568d0b6-8995-4113-9035-22e9a3d1c047" name="Default" comment="" />
+      <created>1486722897623</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1486722897623</updated>
+      <workItem from="1486722901045" duration="755000" />
+      <workItem from="1486954368913" duration="172000" />
+      <workItem from="1486954546339" duration="954000" />
+      <workItem from="1486956394453" duration="912000" />
+      <workItem from="1487658966629" duration="79000" />
+      <workItem from="1487831268123" duration="1069000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="3941000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="58" y="28" width="1362" height="837" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/reactnative/index.ios.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#89#130#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reactnative/index.ios.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#89#130#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reactnative/index.ios.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#89#130#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reactnative/index.ios.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#89#130#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ULife/autobuild.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="128" column="21" selection-start-line="128" selection-start-column="21" selection-end-line="128" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reactnative/index.ios.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="31" column="71" selection-start-line="31" selection-start-column="71" selection-end-line="31" selection-end-column="71" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#89#130#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
