@@ -1,7 +1,14 @@
 /**
  * Created by ashen on 17/2/23.
  */
-class BasicButton extends Component {
+import React, {
+    TextInput,
+    Text,
+    View,
+    StyleSheet,
+    TouchableHighlight
+} from 'react-native';
+export default class BasicButton extends React.Component {
     render(){
         return(
             <TouchableHighlight

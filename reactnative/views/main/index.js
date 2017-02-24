@@ -6,9 +6,11 @@ import {
   AppRegistry,
   StyleSheet,
   Text,
-  View, Image,ListView,Touchable,TouchableHighlight
+  View, Image,ListView,Touchable,TouchableHighlight,Dimensions
 } from 'react-native';
-import Button from '../../button/BasicButton';
+
+var deviceScreen = Dimensions.get('window');
+
 class RN extends Component {
     // 初始化模拟数据
     constructor(props) {
@@ -16,36 +18,51 @@ class RN extends Component {
         const ds = new ListView.DataSource({rowHasChanged: (r1, r2) => r1 !== r2});
         this.state = {
             dataSource: ds.cloneWithRows([
-                '1、Hello World', '2、Props（属性）', '3、State（状态）', '4、样式', '5、高度与宽度', '6、使用Flexbox布局', '7、处理文本输入', '8、如何使用ScrollView'
+                'Hello World', 'Props（属性）', 'State（状态）', '样式', '高度与宽度', '使用Flexbox布局', '处理文本输入', '如何使用ScrollView'
             ])
         };
     }
     render() {
         return (
-            <View style={{flex: 0, paddingTop: 10}}>
             <ListView
                 dataSource={this.state.dataSource}
                 renderRow={(rowData) =>
+                <View style={[styles.cellView]}>
                      <TouchableHighlight onPress={this._onPressButton} style = {[styles.btn]}>
                         <Text style={[styles.list]}>{rowData}</Text>
                      </TouchableHighlight>
+                </View>
                 }
+                style = {[styles.listview]}
             />
-            </View>
      );
     }
 }
 
 const styles = StyleSheet.create({
-    list: {
-        color: 'black',
-        fontSize: 20,
-        height:50,
-        alignItems:'center'
+    listview:{
+        flex: 1,
+        height: deviceScreen.height - 60,
+        width:deviceScreen.width
     },
-    btn:{
+    cellView:{
 
     },
+    btn:{
+        marginTop:10,
+        marginLeft:10,
+        marginRight:10,
+        backgroundColor:'pink',
+        alignItems:'center',
+        justifyContent: 'center',
+    },
+     list: {
+        color: 'black',
+        fontSize: 20,
+        marginTop: 20,
+        height:40,
+        textAlign:'center'
+     },
 });
 
 AppRegistry.registerComponent('RN', () => RN);
