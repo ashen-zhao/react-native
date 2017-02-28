@@ -8,7 +8,7 @@ import React, {
     StyleSheet,
     TouchableHighlight
 } from 'react-native';
-export default class BasicButton extends React.Component {
+export default class Button extends React.Component {
     render(){
         return(
             <TouchableHighlight
