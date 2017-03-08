@@ -1,20 +1,19 @@
 //
-//  RNController.swift
+//  OriginController.swift
 //  RN
 //
-//  Created by ashen on 17/2/7.
+//  Created by ashen on 17/3/8.
 //  Copyright © 2017年 Ashen. All rights reserved.
 //
 
 import UIKit
-class RNController: UIViewController {
+
+class OriginController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.navigationItem.title = "RN"
-        let rnview = RNView(frame: CGRect(x: 0, y: 64, width: 300, height: 400))
-        self.view.addSubview(rnview)
-        NotificationCenter.default.addObserver(self, selector: #selector(push), name: NSNotification.Name.init(rawValue: "RntoOrigin"), object: nil)
+        self.view.backgroundColor = UIColor.white
+        self.navigationItem.title = "Origin"
     }
 
     override func didReceiveMemoryWarning() {
@@ -22,10 +21,6 @@ class RNController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    func push() {
-        let origin = OriginController()
-        self.navigationController?.pushViewController(origin, animated: true)
-    }
 
     /*
     // MARK: - Navigation

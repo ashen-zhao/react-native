@@ -2,11 +2,12 @@
  * Created by ashen on 17/2/28.
  */
 import React, { Component , PropTypes} from 'react';
-import {AppRegistry,StyleSheet,Text,View,ListView,TouchableOpacity,Dimensions } from 'react-native';
+import {AppRegistry,StyleSheet,Text,View,ListView,TouchableOpacity,Dimensions ,NativeModules} from 'react-native';
 
 import Hello from '../hello';
 
 var deviceScreen = Dimensions.get('window');
+var RNModules = NativeModules.RTModule;
 
 export default class List extends Component {
     static props = {
@@ -47,7 +48,7 @@ export default class List extends Component {
                     style={[styles.listview]}
                     renderRow={(rowData) =>
                         <View style={[styles.cellView]}>
-                            <TouchableOpacity onPress={ () => this._pressButton({rowData})} style={[styles.btn]}>
+                            <TouchableOpacity  onPress={ () => RNModules.RNOpenOneVC('push')} style={[styles.btn]}>
                                 <Text style={[styles.list]}>{rowData}</Text>
                             </TouchableOpacity>
                         </View>
