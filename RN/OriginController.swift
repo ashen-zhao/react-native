@@ -10,7 +10,7 @@ import UIKit
 
 class OriginController: UIViewController {
 
-    public var url = "hello"
+    public var url = "hello" //默认进入hello页面
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor.white

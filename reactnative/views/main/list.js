@@ -4,30 +4,10 @@
 import React, { Component , PropTypes} from 'react';
 import {AppRegistry,StyleSheet,Text,View,ListView,TouchableOpacity,Dimensions ,NativeModules} from 'react-native';
 
-import Hello from '../hello';
-
 var deviceScreen = Dimensions.get('window');
 var RNModules = NativeModules.RTModule;
 
 export default class List extends Component {
-    static props = {
-        title: PropTypes.string.isRequired,
-        onForward: PropTypes.func.isRequired,
-    }
-
-    _pressButton(row) {
-        const {navigator} = this.props;
-        if (navigator) {
-            navigator.push({
-                name: 'Hello',
-                component: Hello,
-                params:{
-                    title:'Hello World'
-                }
-            })
-        }
-    }
-
 
     // 初始化模拟数据
     constructor(props) {
@@ -37,7 +17,6 @@ export default class List extends Component {
             dataSource: ds.cloneWithRows([
                 ['hello','Hello World'], ['props','Props（属性）'], ['state','State（状态）'], ['style','样式'], ['wh','高度与宽度'], ['flexbox','使用Flexbox布局'], ['text','处理文本输入'], ['scroll','如何使用ScrollView']
             ]),
-
         };
     }
 
