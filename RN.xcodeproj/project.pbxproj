@@ -89,17 +89,17 @@
 			isa = PBXGroup;
 			children = (
 				8C4627111E497775002A60BC /* AppDelegate.swift */,
+				8CC5BA141E700EE200243426 /* RN-Bridging-Header.h */,
+				8C46272B1E499D3A002A60BC /* RNView.swift */,
 				8C4627131E497775002A60BC /* ViewController.swift */,
+				8C4627291E49972D002A60BC /* RNController.swift */,
+				8CC5BA251E7011E900243426 /* OriginController.swift */,
+				8CC5BA151E700EE200243426 /* RTModule.h */,
+				8CC5BA161E700EE200243426 /* RTModule.m */,
 				8C4627151E497775002A60BC /* Main.storyboard */,
 				8C4627181E497775002A60BC /* Assets.xcassets */,
 				8C46271A1E497775002A60BC /* LaunchScreen.storyboard */,
 				8C46271D1E497775002A60BC /* Info.plist */,
-				8C4627291E49972D002A60BC /* RNController.swift */,
-				8C46272B1E499D3A002A60BC /* RNView.swift */,
-				8CC5BA151E700EE200243426 /* RTModule.h */,
-				8CC5BA161E700EE200243426 /* RTModule.m */,
-				8CC5BA141E700EE200243426 /* RN-Bridging-Header.h */,
-				8CC5BA251E7011E900243426 /* OriginController.swift */,
 			);
 			path = RN;
 			sourceTree = "<group>";

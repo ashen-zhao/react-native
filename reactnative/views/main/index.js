@@ -5,22 +5,20 @@ import React, { Component } from 'react';
 import { AppRegistry,Navigator,Text,View,Dimensions,StyleSheet } from 'react-native';
 
 import List from './list';
+import Hello from '../hello';
 
 var deviceScreen = Dimensions.get('window');
 class RN extends Component {
     render() {
+        var page = <List/>
+        var url = this.props["urlRouter"]
+        if (url == "hello") {
+            page = <Hello/>
+        } else if (url == 'state') {
+            page = <List/>
+        }
         return (
-            <Navigator
-                initialRoute={{name: 'List', component: List}}
-                style={[styles.nav]}
-                configureScene={(route) => {
-                    return Navigator.SceneConfigs.PushFromRight;
-                }}
-                renderScene={(route, navigator) => {
-                    let Component = route.component;
-                    return <Component {...route.params} navigator={navigator}/>
-                }}
-            />
+            page
         )
     }
 }

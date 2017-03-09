@@ -12,7 +12,8 @@ class RNController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.navigationItem.title = "RN"
-        let rnview = RNView(frame: CGRect(x: 0, y: 64, width: 300, height: 400))
+        self.automaticallyAdjustsScrollViewInsets = false
+        let rnview = RNView.init(frame:CGRect(x: 0, y: 64, width: self.view.frame.size.width, height: self.view.frame.size.height), properties: ["urlRouter":"list"])
         self.view.addSubview(rnview)
         NotificationCenter.default.addObserver(self, selector: #selector(push), name: NSNotification.Name.init(rawValue: "RntoOrigin"), object: nil)
     }
@@ -22,8 +23,10 @@ class RNController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    func push() {
+    func push(noti:Notification) {
+        let url = noti.object as! String
         let origin = OriginController()
+        origin.url = url
         self.navigationController?.pushViewController(origin, animated: true)
     }
 

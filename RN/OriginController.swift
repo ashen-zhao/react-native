@@ -10,10 +10,13 @@ import UIKit
 
 class OriginController: UIViewController {
 
+    public var url = "hello"
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor.white
         self.navigationItem.title = "Origin"
+        let rnview = RNView.init(frame:CGRect(x: 0, y: 64, width: self.view.frame.size.width, height: self.view.frame.size.height), properties: ["urlRouter":url])
+        self.view.addSubview(rnview)
     }
 
     override func didReceiveMemoryWarning() {

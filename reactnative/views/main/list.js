@@ -35,8 +35,9 @@ export default class List extends Component {
         const ds = new ListView.DataSource({rowHasChanged: (r1, r2) => r1 !== r2});
         this.state = {
             dataSource: ds.cloneWithRows([
-                'Hello World', 'Props（属性）', 'State（状态）', '样式', '高度与宽度', '使用Flexbox布局', '处理文本输入', '如何使用ScrollView'
+                ['hello','Hello World'], ['props','Props（属性）'], ['state','State（状态）'], ['style','样式'], ['wh','高度与宽度'], ['flexbox','使用Flexbox布局'], ['text','处理文本输入'], ['scroll','如何使用ScrollView']
             ]),
+
         };
     }
 
@@ -48,8 +49,8 @@ export default class List extends Component {
                     style={[styles.listview]}
                     renderRow={(rowData) =>
                         <View style={[styles.cellView]}>
-                            <TouchableOpacity  onPress={ () => RNModules.RNOpenOneVC('push')} style={[styles.btn]}>
-                                <Text style={[styles.list]}>{rowData}</Text>
+                            <TouchableOpacity  onPress={ () => RNModules.RNOpenOneVC(rowData[0])} style={[styles.btn]}>
+                                <Text style={[styles.list]}>{rowData[1]}</Text>
                             </TouchableOpacity>
                         </View>
                     }
