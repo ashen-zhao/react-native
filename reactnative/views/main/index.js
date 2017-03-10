@@ -7,7 +7,8 @@ import { AppRegistry,Navigator,Text,View,Dimensions,StyleSheet } from 'react-nat
 import List from './list';
 import Hello from '../lessons/hello';
 import Props from  '../lessons/props';
-import State from  '../lessons/state'
+import State from  '../lessons/state';
+import Style from '../lessons/style'
 
 var deviceScreen = Dimensions.get('window');
 class RN extends Component {
@@ -20,6 +21,8 @@ class RN extends Component {
             page = <Props/>
         } else if (url == 'state') {
             page = <State/>
+        } else if (url == 'style') {
+            page = <Style/>
         }
         return (
             page
