@@ -8,7 +8,10 @@ import List from './list';
 import Hello from '../lessons/hello';
 import Props from  '../lessons/props';
 import State from  '../lessons/state';
-import Style from '../lessons/style'
+import Style from '../lessons/style';
+import FlexBox from '../lessons/flexbox'
+import InputText from '../lessons/textinput'
+
 
 var deviceScreen = Dimensions.get('window');
 class RN extends Component {
@@ -23,6 +26,10 @@ class RN extends Component {
             page = <State/>
         } else if (url == 'style') {
             page = <Style/>
+        } else if (url == 'flexbox') {
+            page = <FlexBox/>
+        } else if (url == 'text') {
+            page = <InputText/>
         }
         return (
             page
