@@ -11,7 +11,7 @@ import State from  '../lessons/state';
 import Style from '../lessons/style';
 import FlexBox from '../lessons/flexbox'
 import InputText from '../lessons/textinput'
-
+import Scroll from  '../lessons/scroll'
 
 var deviceScreen = Dimensions.get('window');
 class RN extends Component {
@@ -30,6 +30,8 @@ class RN extends Component {
             page = <FlexBox/>
         } else if (url == 'text') {
             page = <InputText/>
+        } else if (url == 'scroll') {
+            page = <Scroll/>
         }
         return (
             page
