@@ -9,8 +9,6 @@
 
 #import <CoreGraphics/CoreGraphics.h>
 
-#import <Foundation/Foundation.h>
-
 /**
  * These block types can be used for mapping input event handlers from JS to view
  * properties. Unlike JS method callbacks, these can be called multiple times.

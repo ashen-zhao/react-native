@@ -11,13 +11,12 @@
  */
 'use strict';
 
-/*
+const ReactNativeMount = require('ReactNativeMount');
 const getReactData = require('getReactData');
 
 const INDENTATION_SIZE = 2;
 const MAX_DEPTH = 2;
 const MAX_STRING_LENGTH = 50;
-*/
 
 /**
  * Dump all React Native root views and their content. This function tries
@@ -33,12 +32,6 @@ function dumpReactTree() {
 }
 
 function getReactTree() {
-  // TODO(sema): Reenable tree dumps using the Fiber tree structure. #15945684
-  return (
-    'React tree dumps have been temporarily disabled while React is ' +
-    'upgraded to Fiber.'
-  );
-/*
   let output = '';
   const rootIds = Object.getOwnPropertyNames(ReactNativeMount._instancesByContainerID);
   for (const rootId of rootIds) {
@@ -48,10 +41,8 @@ function getReactTree() {
     output += `============ End root ID: ${rootId} ============\n`;
   }
   return output;
-*/
 }
 
-/*
 function dumpNode(node: Object, identation: number) {
   const data = getReactData(node);
   if (data.nodeType === 'Text') {
@@ -147,6 +138,5 @@ function possiblyEllipsis(value: string) {
 function indent(size: number) {
   return ' '.repeat(size * INDENTATION_SIZE);
 }
-*/
 
 module.exports = dumpReactTree;

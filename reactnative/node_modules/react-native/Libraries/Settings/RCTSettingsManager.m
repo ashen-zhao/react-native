@@ -9,10 +9,10 @@
 
 #import "RCTSettingsManager.h"
 
-#import <React/RCTBridge.h>
-#import <React/RCTConvert.h>
-#import <React/RCTEventDispatcher.h>
-#import <React/RCTUtils.h>
+#import "RCTBridge.h"
+#import "RCTConvert.h"
+#import "RCTEventDispatcher.h"
+#import "RCTUtils.h"
 
 @implementation RCTSettingsManager
 {
@@ -80,9 +80,9 @@ RCT_EXPORT_METHOD(setValues:(NSDictionary *)values)
   [values enumerateKeysAndObjectsUsingBlock:^(NSString *key, id json, BOOL *stop) {
     id plist = [RCTConvert NSPropertyList:json];
     if (plist) {
-      [self->_defaults setObject:plist forKey:key];
+      [_defaults setObject:plist forKey:key];
     } else {
-      [self->_defaults removeObjectForKey:key];
+      [_defaults removeObjectForKey:key];
     }
   }];
 

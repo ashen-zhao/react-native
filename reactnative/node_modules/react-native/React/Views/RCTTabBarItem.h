@@ -9,14 +9,7 @@
 
 #import <UIKit/UIKit.h>
 
-#import <React/RCTComponent.h>
-#import <React/RCTConvert.h>
-
-@interface RCTConvert (UITabBarSystemItem)
-
-+ (UITabBarSystemItem)UITabBarSystemItem:(id)json;
-
-@end
+#import "RCTComponent.h"
 
 @interface RCTTabBarItem : UIView
 

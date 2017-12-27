@@ -23,8 +23,8 @@ import com.facebook.react.uimanager.events.RCTEventEmitter;
 
     private final boolean mIsChecked;
 
-    public ReactSwitchEvent(int viewId, boolean isChecked) {
-        super(viewId);
+    public ReactSwitchEvent(int viewId, long timestampMs, boolean isChecked) {
+        super(viewId, timestampMs);
         mIsChecked = isChecked;
     }
 

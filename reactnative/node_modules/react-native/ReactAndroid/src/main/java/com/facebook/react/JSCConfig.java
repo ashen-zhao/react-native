@@ -8,12 +8,5 @@ import com.facebook.react.bridge.WritableNativeMap;
  * Interface for the configuration object that is passed to JSC.
  */
 public interface JSCConfig {
-  JSCConfig EMPTY = new JSCConfig() {
-    @Override
-    public WritableNativeMap getConfigMap() {
-      return new WritableNativeMap();
-    }
-  };
-
-  WritableNativeMap getConfigMap();
+  public WritableNativeMap getConfigMap();
 }

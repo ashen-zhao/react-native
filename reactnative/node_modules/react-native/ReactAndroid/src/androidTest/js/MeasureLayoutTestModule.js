@@ -50,15 +50,14 @@ var styles = StyleSheet.create({
 
 var A, B, C, D;
 
-class MeasureLayoutTestApp extends React.Component {
-  componentDidMount() {
+var MeasureLayoutTestApp = React.createClass({
+  componentDidMount: function() {
     A = ReactNative.findNodeHandle(this.refs.A);
     B = ReactNative.findNodeHandle(this.refs.B);
     C = ReactNative.findNodeHandle(this.refs.C);
     D = ReactNative.findNodeHandle(this.refs.D);
-  }
-
-  render() {
+  },
+  render: function() {
     return (
       <View ref="A" style={styles.A} collapsable={false}>
         <View ref="B" style={styles.B} collapsable={false}>
@@ -67,8 +66,8 @@ class MeasureLayoutTestApp extends React.Component {
         <View ref="D" style={styles.D} collapsable={false} />
       </View>
     );
-  }
-}
+  },
+});
 
 function shouldNotCallThisCallback() {
   assertEquals(false, true);

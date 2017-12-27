@@ -97,7 +97,7 @@ RCT_NOT_IMPLEMENTED(- (instancetype)initWithCoder:(NSCoder *)aDecoder)
     _maxFPS = MAX(_maxFPS, _FPS);
 
     dispatch_async(dispatch_get_main_queue(), ^{
-      self->_label.text = [NSString stringWithFormat:@"%lu", (unsigned long)self->_FPS];
+      _label.text = [NSString stringWithFormat:@"%lu", (unsigned long)_FPS];
     });
 
     CGFloat scale = 60.0 / _height;

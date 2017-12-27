@@ -46,10 +46,14 @@
   (CGSizeEqualToSize(_size, object.size) || CGSizeEqualToSize(object.size, CGSizeZero));
 }
 
-- (NSString *)description
+@end
+
+
+@implementation RCTImageSource (Deprecated)
+
+- (NSURL *)imageURL
 {
-  return [NSString stringWithFormat:@"<RCTImageSource: %p URL=%@, size=%@, scale=%0.f>",
-          self, _request.URL, NSStringFromCGSize(_size), _scale];
+  return self.request.URL;
 }
 
 @end
@@ -81,12 +85,10 @@
   }
 
   RCTImageSource *imageSource = [[RCTImageSource alloc] initWithURLRequest:request
-                                                                      size:size
-                                                                     scale:scale];
+                                                               size:size
+                                                              scale:scale];
   imageSource.packagerAsset = packagerAsset;
   return imageSource;
 }
-
-RCT_ARRAY_CONVERTER(RCTImageSource)
 
 @end

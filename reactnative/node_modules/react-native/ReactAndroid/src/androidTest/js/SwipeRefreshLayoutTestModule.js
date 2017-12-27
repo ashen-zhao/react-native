@@ -20,12 +20,14 @@ var Text = require('Text');
 var TouchableWithoutFeedback = require('TouchableWithoutFeedback');
 var View = require('View');
 
-class Row extends React.Component {
-  state = {
-    clicks: 0,
-  };
+var Row = React.createClass({
+  getInitialState: function() {
+    return {
+      clicks: 0,
+    };
+  },
 
-  render() {
+  render: function() {
     return (
       <TouchableWithoutFeedback onPress={this._onPress}>
         <View>
@@ -35,25 +37,26 @@ class Row extends React.Component {
         </View>
       </TouchableWithoutFeedback>
     );
-  }
+  },
 
-  _onPress = () => {
+  _onPress: function() {
     this.setState({clicks: this.state.clicks + 1});
-  };
-}
+  },
+});
 
 var app = null;
+var SwipeRefreshLayoutTestApp = React.createClass({
+  getInitialState: function() {
+    return {
+      rows: 2,
+    };
+  },
 
-class SwipeRefreshLayoutTestApp extends React.Component {
-  state = {
-    rows: 2,
-  };
-
-  componentDidMount() {
+  componentDidMount: function() {
     app = this;
-  }
+  },
 
-  render() {
+  render: function() {
     var rows = [];
     for (var i = 0; i < this.state.rows; i++) {
       rows.push(<Row key={i} />);
@@ -71,8 +74,8 @@ class SwipeRefreshLayoutTestApp extends React.Component {
         {rows}
       </ScrollView>
     );
-  }
-}
+  },
+});
 
 var SwipeRefreshLayoutTestModule = {
   SwipeRefreshLayoutTestApp,

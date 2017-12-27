@@ -22,8 +22,8 @@ var requireNativeComponent = require('requireNativeComponent');
 
 var ClippableView = requireNativeComponent('ClippableView', null);
 
-class ClippingSample1 extends React.Component {
-  render() {
+var ClippingSample1 = React.createClass({
+  render: function() {
     var styles = sample1Styles;
     return (
       <View>
@@ -37,7 +37,7 @@ class ClippingSample1 extends React.Component {
       </View>
     );
   }
-}
+});
 
 var sample1Styles = StyleSheet.create({
   outer: {
@@ -73,8 +73,8 @@ var sample1Styles = StyleSheet.create({
   },
 });
 
-class ClippingSample2 extends React.Component {
-  render() {
+var ClippingSample2 = React.createClass({
+  render: function() {
     var styles = sample2Styles;
     return (
       <View>
@@ -92,7 +92,7 @@ class ClippingSample2 extends React.Component {
       </View>
     );
   }
-}
+});
 
 var sample2Styles = StyleSheet.create({
   outer: {
@@ -132,8 +132,8 @@ var sample2Styles = StyleSheet.create({
   },
 });
 
-class UpdatingSample1 extends React.Component {
-  render() {
+var UpdatingSample1 = React.createClass({
+  render: function() {
     var styles = updating1Styles;
     var inner1Styles = [styles.inner1, {height: this.props.update1 ? 200 : 100}];
     var inner2Styles = [styles.inner2, {top: this.props.update2 ? 200 : 50}];
@@ -146,7 +146,7 @@ class UpdatingSample1 extends React.Component {
       </View>
     );
   }
-}
+});
 
 var updating1Styles = StyleSheet.create({
   outer: {
@@ -172,8 +172,8 @@ var updating1Styles = StyleSheet.create({
   }
 });
 
-class UpdatingSample2 extends React.Component {
-  render() {
+var UpdatingSample2 = React.createClass({
+  render: function() {
     var styles = updating2Styles;
     var outerStyles = [styles.outer, {height: this.props.update ? 200 : 100}];
     return (
@@ -184,7 +184,7 @@ class UpdatingSample2 extends React.Component {
       </View>
     );
   }
-}
+});
 
 var updating2Styles = StyleSheet.create({
   outer: {
@@ -201,8 +201,8 @@ var updating2Styles = StyleSheet.create({
   },
 });
 
-class ScrollViewTest extends React.Component {
-  render() {
+var ScrollViewTest = React.createClass({
+  render: function() {
     var styles = scrollTestStyles;
     var children = [];
     for (var i = 0; i < 4; i++) {
@@ -230,7 +230,7 @@ class ScrollViewTest extends React.Component {
       </ScrollView>
     );
   }
-}
+});
 
 var scrollTestStyles = StyleSheet.create({
   scrollView: {
@@ -263,27 +263,25 @@ var scrollTestStyles = StyleSheet.create({
 
 
 var appInstance = null;
-
-class SubviewsClippingTestApp extends React.Component {
-  state = {};
-
-  componentWillMount() {
+var SubviewsClippingTestApp = React.createClass({
+  componentWillMount: function() {
     appInstance = this;
-  }
-
-  setComponent = (component) => {
+  },
+  setComponent: function(component) {
     this.setState({component: component});
-  };
-
-  render() {
+  },
+  getInitialState: function() {
+    return {};
+  },
+  render: function() {
     var component = this.state.component;
     return (
       <View>
         {component}
       </View>
     );
-  }
-}
+  },
+});
 
 var SubviewsClippingTestModule = {
   App: SubviewsClippingTestApp,

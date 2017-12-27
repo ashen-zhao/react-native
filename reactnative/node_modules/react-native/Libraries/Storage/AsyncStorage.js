@@ -13,17 +13,18 @@
  */
 'use strict';
 
-const NativeModules = require('NativeModules');
+var NativeModules = require('NativeModules');
+var RCTAsyncSQLiteStorage = NativeModules.AsyncSQLiteDBStorage;
+var RCTAsyncRocksDBStorage = NativeModules.AsyncRocksDBStorage;
+var RCTAsyncFileStorage = NativeModules.AsyncLocalStorage;
 
 // Use RocksDB if available, then SQLite, then file storage.
-const RCTAsyncStorage = NativeModules.AsyncRocksDBStorage ||
-  NativeModules.AsyncSQLiteDBStorage ||
-  NativeModules.AsyncLocalStorage;
+var RCTAsyncStorage = RCTAsyncRocksDBStorage || RCTAsyncSQLiteStorage || RCTAsyncFileStorage;
 
 /**
  * @class
  * @description
- * `AsyncStorage` is a simple, unencrypted, asynchronous, persistent, key-value storage
+ * `AsyncStorage` is a simple, asynchronous, persistent, key-value storage
  * system that is global to the app.  It should be used instead of LocalStorage.
  *
  * It is recommended that you use an abstraction on top of `AsyncStorage`
@@ -262,13 +263,13 @@ var AsyncStorage = {
       //
       // Is there a way to avoid using the map but fix the bug in this breaking test?
       // https://github.com/facebook/react-native/commit/8dd8ad76579d7feef34c014d387bf02065692264
-      const map = {};
-      result && result.forEach(([key, value]) => { map[key] = value; return value; });
+      let map = {};
+      result.forEach(([key, value]) => map[key] = value);
       const reqLength = getRequests.length;
       for (let i = 0; i < reqLength; i++) {
         const request = getRequests[i];
         const requestKeys = request.keys;
-        const requestResult = requestKeys.map(key => [key, map[key]]);
+        let requestResult = requestKeys.map(key => [key, map[key]]);
         request.callback && request.callback(null, requestResult);
         request.resolve && request.resolve(requestResult);
       }

@@ -19,6 +19,7 @@ const TaskQueue = require('TaskQueue');
 const infoLog = require('infoLog');
 const invariant = require('fbjs/lib/invariant');
 const keyMirror = require('fbjs/lib/keyMirror');
+const setImmediate = require('setImmediate');
 
 type Handle = number;
 import type {Task} from 'TaskQueue';
@@ -99,13 +100,7 @@ var InteractionManager = {
     });
     return {
       then: promise.then.bind(promise),
-      done: (...args) => {
-        if (promise.done) {
-          return promise.done(...args);
-        } else {
-          console.warn('Tried to call done when not supported by current Promise implementation.');
-        }
-      },
+      done: promise.done.bind(promise),
       cancel: function() {
         _taskQueue.cancelTasks(tasks);
       },
@@ -156,8 +151,6 @@ const _taskQueue = new TaskQueue({onMoreTasks: _scheduleUpdate});
 let _nextUpdateHandle = 0;
 let _inc = 0;
 let _deadline = -1;
-
-declare function setImmediate(callback: any, ...args: Array<any>): number;
 
 /**
  * Schedule an asynchronous update to the interaction state.

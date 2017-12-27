@@ -26,8 +26,8 @@ class PageScrollStateChangedEvent extends Event<PageScrollStateChangedEvent> {
 
   private final String mPageScrollState;
 
-  protected PageScrollStateChangedEvent(int viewTag, String pageScrollState) {
-    super(viewTag);
+  protected PageScrollStateChangedEvent(int viewTag, long timestampMs, String pageScrollState) {
+    super(viewTag, timestampMs);
     mPageScrollState = pageScrollState;
   }
 

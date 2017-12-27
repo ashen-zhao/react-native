@@ -19,6 +19,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.facebook.react.bridge.ReactContext;
+import com.facebook.react.common.SystemClock;
 import com.facebook.react.uimanager.UIManagerModule;
 import com.facebook.react.uimanager.events.EventDispatcher;
 import com.facebook.react.uimanager.events.NativeGestureUtil;
@@ -28,12 +29,11 @@ import com.facebook.react.uimanager.events.NativeGestureUtil;
  * views to custom {@link PagerAdapter} instance which is used by {@link NativeViewHierarchyManager}
  * to add children nodes according to react views hierarchy.
  */
-public class ReactViewPager extends ViewPager {
+/* package */ class ReactViewPager extends ViewPager {
 
   private class Adapter extends PagerAdapter {
 
-    private final List<View> mViews = new ArrayList<>();
-    private boolean mIsViewPagerInIntentionallyInconsistentState = false;
+    private List<View> mViews = new ArrayList<>();
 
     void addView(View child, int index) {
       mViews.add(index, child);
@@ -42,7 +42,7 @@ public class ReactViewPager extends ViewPager {
       // We need to do that since {@link ViewPager} relies on layout passes to position those views
       // in a right way (also thanks to {@link ReactViewPagerManager#needsCustomLayoutForChildren}
       // returning {@code true}). Currently we only call {@link View#measure} and
-      // {@link View#layout} after yoga step.
+      // {@link View#layout} after CSSLayout step.
 
       // TODO(7323049): Remove this workaround once we figure out a way to re-layout some views on
       // request
@@ -58,32 +58,6 @@ public class ReactViewPager extends ViewPager {
       setOffscreenPageLimit(mViews.size());
     }
 
-    /**
-     * Replace a set of views to the ViewPager adapter and update the ViewPager
-     */
-    void setViews(List<View> views) {
-      mViews.clear();
-      mViews.addAll(views);
-      notifyDataSetChanged();
-
-      // we want to make sure we return POSITION_NONE for every view here, since this is only
-      // called after a removeAllViewsFromAdapter
-      mIsViewPagerInIntentionallyInconsistentState = false;
-    }
-
-    /**
-     * Remove all the views from the adapter and de-parents them from the ViewPager
-     * After calling this, it is expected that notifyDataSetChanged should be called soon
-     * afterwards.
-     */
-    void removeAllViewsFromAdapter(ViewPager pager) {
-      mViews.clear();
-      pager.removeAllViews();
-      // set this, so that when the next addViews is called, we return POSITION_NONE for every
-      // entry so we can remove whichever views we need to and add the ones that we need to.
-      mIsViewPagerInIntentionallyInconsistentState = true;
-    }
-
     View getViewAt(int index) {
       return mViews.get(index);
     }
@@ -91,13 +65,6 @@ public class ReactViewPager extends ViewPager {
     @Override
     public int getCount() {
       return mViews.size();
-    }
-
-    @Override
-    public int getItemPosition(Object object) {
-      // if we've removed all views, we want to return POSITION_NONE intentionally
-      return mIsViewPagerInIntentionallyInconsistentState || !mViews.contains(object) ?
-        POSITION_NONE : mViews.indexOf(object);
     }
 
     @Override
@@ -109,7 +76,8 @@ public class ReactViewPager extends ViewPager {
 
     @Override
     public void destroyItem(ViewGroup container, int position, Object object) {
-      container.removeView((View) object);
+      View view = mViews.get(position);
+      container.removeView(view);
     }
 
     @Override
@@ -123,14 +91,14 @@ public class ReactViewPager extends ViewPager {
     @Override
     public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
       mEventDispatcher.dispatchEvent(
-          new PageScrollEvent(getId(), position, positionOffset));
+          new PageScrollEvent(getId(), SystemClock.nanoTime(), position, positionOffset));
     }
 
     @Override
     public void onPageSelected(int position) {
       if (!mIsCurrentItemFromJs) {
         mEventDispatcher.dispatchEvent(
-            new PageSelectedEvent(getId(), position));
+            new PageSelectedEvent(getId(), SystemClock.nanoTime(), position));
       }
     }
 
@@ -151,7 +119,7 @@ public class ReactViewPager extends ViewPager {
           throw new IllegalStateException("Unsupported pageScrollState");
       }
       mEventDispatcher.dispatchEvent(
-        new PageScrollStateChangedEvent(getId(), pageScrollState));
+        new PageScrollStateChangedEvent(getId(), SystemClock.nanoTime(), pageScrollState));
     }
   }
 
@@ -218,13 +186,5 @@ public class ReactViewPager extends ViewPager {
 
   /*package*/ View getViewFromAdapter(int index) {
     return getAdapter().getViewAt(index);
-  }
-
-  public void setViews(List<View> views) {
-    getAdapter().setViews(views);
-  }
-
-  public void removeAllViewsFromAdapter() {
-    getAdapter().removeAllViewsFromAdapter(this);
   }
 }

@@ -1,17 +1,10 @@
-/**
- * Copyright (c) 2015-present, Facebook, Inc.
- * All rights reserved.
- *
- * This source code is licensed under the BSD-style license found in the
- * LICENSE file in the root directory of this source tree. An additional grant
- * of patent rights can be found in the PATENTS file in the same directory.
- */
 'use strict';
 
 const chalk = require('chalk');
 const child_process = require('child_process');
 const os = require('os');
 const path = require('path');
+const Promise = require('promise');
 
 /**
  * Starts iOS device syslog tail
@@ -22,7 +15,7 @@ function logIOS() {
   });
 }
 
-function _logIOS() {
+function _logIOS(resolve, reject) {
   let rawDevices;
 
   try {
@@ -33,7 +26,8 @@ function _logIOS() {
     console.log(chalk.red(
       'xcrun invocation failed. Please check that Xcode is installed.'
     ));
-    return Promise.reject(e);
+    reject(e);
+    return;
   }
 
   const { devices } = JSON.parse(rawDevices);
@@ -43,10 +37,10 @@ function _logIOS() {
     console.log(chalk.red(
       'No active iOS device found'
     ));
-    return Promise.reject();
+    reject();
   }
 
-  return tailDeviceLogs(device.udid);
+  tailDeviceLogs(device.udid, reject);
 }
 
 function _findAvailableDevice(devices) {
@@ -59,7 +53,7 @@ function _findAvailableDevice(devices) {
   }
 }
 
-function tailDeviceLogs(udid) {
+function tailDeviceLogs(udid, reject) {
   const logDir = path.join(
     os.homedir(),
     'Library',
@@ -76,12 +70,8 @@ function tailDeviceLogs(udid) {
     console.log(chalk.red(
       'syslog invocation failed.'
     ));
-    return Promise.reject(log.error);
+    reject(log.error);
   }
 }
 
-module.exports = {
-  name: 'log-ios',
-  description: 'starts iOS device syslog tail',
-  func: logIOS,
-};
+module.exports = logIOS;

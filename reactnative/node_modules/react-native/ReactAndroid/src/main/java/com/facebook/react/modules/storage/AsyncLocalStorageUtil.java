@@ -31,7 +31,7 @@ import static com.facebook.react.modules.storage.ReactDatabaseSupplier.VALUE_COL
 /**
  * Helper for database operations.
  */
-public class AsyncLocalStorageUtil {
+/* package */ class AsyncLocalStorageUtil {
 
   /**
    * Build the String required for an SQL select statement:
@@ -60,7 +60,7 @@ public class AsyncLocalStorageUtil {
   /**
    * Returns the value of the given key, or null if not found.
    */
-  public static @Nullable String getItemImpl(SQLiteDatabase db, String key) {
+  /* package */ static @Nullable String getItemImpl(SQLiteDatabase db, String key) {
     String[] columns = {VALUE_COLUMN};
     String[] selectionArgs = {key};
 

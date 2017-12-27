@@ -11,6 +11,7 @@ package com.facebook.react.views.art;
 
 import android.view.View;
 
+import com.facebook.react.uimanager.ReactStylesDiffMap;
 import com.facebook.react.uimanager.ReactShadowNode;
 import com.facebook.react.uimanager.ThemedReactContext;
 import com.facebook.react.uimanager.ViewManager;
@@ -29,18 +30,18 @@ public class ARTRenderableViewManager extends ViewManager<View, ReactShadowNode>
   private final String mClassName;
 
   public static ARTRenderableViewManager createARTGroupViewManager() {
-    return new ARTGroupViewManager();
+    return new ARTRenderableViewManager(CLASS_GROUP);
   }
 
   public static ARTRenderableViewManager createARTShapeViewManager() {
-    return new ARTShapeViewManager();
+    return new ARTRenderableViewManager(CLASS_SHAPE);
   }
 
   public static ARTRenderableViewManager createARTTextViewManager() {
-    return new ARTTextViewManager();
+    return new ARTRenderableViewManager(CLASS_TEXT);
   }
 
-  /* package */ ARTRenderableViewManager(String className) {
+  private ARTRenderableViewManager(String className) {
     mClassName = className;
   }
 
@@ -51,11 +52,11 @@ public class ARTRenderableViewManager extends ViewManager<View, ReactShadowNode>
 
   @Override
   public ReactShadowNode createShadowNodeInstance() {
-    if (CLASS_GROUP.equals(mClassName)) {
+    if (mClassName == CLASS_GROUP) {
       return new ARTGroupShadowNode();
-    } else if (CLASS_SHAPE.equals(mClassName)) {
+    } else if (mClassName == CLASS_SHAPE) {
       return new ARTShapeShadowNode();
-    } else if (CLASS_TEXT.equals(mClassName)) {
+    } else if (mClassName == CLASS_TEXT) {
       return new ARTTextShadowNode();
     } else {
       throw new IllegalStateException("Unexpected type " + mClassName);
@@ -64,11 +65,11 @@ public class ARTRenderableViewManager extends ViewManager<View, ReactShadowNode>
 
   @Override
   public Class<? extends ReactShadowNode> getShadowNodeClass() {
-    if (CLASS_GROUP.equals(mClassName)) {
+    if (mClassName == CLASS_GROUP) {
       return ARTGroupShadowNode.class;
-    } else if (CLASS_SHAPE.equals(mClassName)) {
+    } else if (mClassName == CLASS_SHAPE) {
       return ARTShapeShadowNode.class;
-    } else if (CLASS_TEXT.equals(mClassName)) {
+    } else if (mClassName == CLASS_TEXT) {
       return ARTTextShadowNode.class;
     } else {
       throw new IllegalStateException("Unexpected type " + mClassName);

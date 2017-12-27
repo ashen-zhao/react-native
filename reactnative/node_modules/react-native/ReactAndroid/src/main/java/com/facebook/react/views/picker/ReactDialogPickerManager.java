@@ -11,16 +11,14 @@ package com.facebook.react.views.picker;
 
 import android.widget.Spinner;
 
-import com.facebook.react.module.annotations.ReactModule;
 import com.facebook.react.uimanager.ThemedReactContext;
 
 /**
  * {@link ReactPickerManager} for {@link ReactPicker} with {@link Spinner#MODE_DIALOG}.
  */
-@ReactModule(name = ReactDialogPickerManager.REACT_CLASS)
 public class ReactDialogPickerManager extends ReactPickerManager {
 
-  protected static final String REACT_CLASS = "AndroidDialogPicker";
+  private static final String REACT_CLASS = "AndroidDialogPicker";
 
   @Override
   public String getName() {

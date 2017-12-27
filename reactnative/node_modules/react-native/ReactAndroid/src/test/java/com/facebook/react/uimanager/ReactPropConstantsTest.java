@@ -25,10 +25,10 @@ import com.facebook.react.uimanager.annotations.ReactPropGroup;
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.powermock.core.classloader.annotations.PowerMockIgnore;
-import org.powermock.modules.junit4.rule.PowerMockRule;
 import org.robolectric.RobolectricTestRunner;
 import org.robolectric.RuntimeEnvironment;
+import org.powermock.core.classloader.annotations.PowerMockIgnore;
+import org.powermock.modules.junit4.rule.PowerMockRule;
 
 import static org.fest.assertions.api.Assertions.assertThat;
 import static org.fest.assertions.api.Assertions.fail;
@@ -148,8 +148,7 @@ public class ReactPropConstantsTest {
     UIManagerModule uiManagerModule = new UIManagerModule(
         reactContext,
         viewManagers,
-        new UIImplementationProvider(),
-        false);
+        new UIImplementation(reactContext, viewManagers));
     Map<String, String> constants =
         (Map) valueAtPath(uiManagerModule.getConstants(), "SomeView", "NativeProps");
     assertThat(constants).isEqualTo(

@@ -52,16 +52,6 @@ import com.facebook.react.bridge.ReadableMapKeySetIterator;
  */
 public class NativeViewHierarchyOptimizer {
 
-  private static class NodeIndexPair {
-    public final ReactShadowNode node;
-    public final int index;
-
-    NodeIndexPair(ReactShadowNode node, int index) {
-      this.node = node;
-      this.index = index;
-    }
-  }
-
   private static final boolean ENABLED = true;
 
   private final UIViewOperationQueue mUIViewOperationQueue;
@@ -231,39 +221,21 @@ public class NativeViewHierarchyOptimizer {
     mTagsWithLayoutVisited.clear();
   }
 
-  private NodeIndexPair walkUpUntilNonLayoutOnly(
-      ReactShadowNode node,
-      int indexInNativeChildren) {
-    while (node.isLayoutOnly()) {
-      ReactShadowNode parent = node.getParent();
-      if (parent == null) {
-        return null;
-      }
-
-      indexInNativeChildren = indexInNativeChildren + parent.getNativeOffsetForChild(node);
-      node = parent;
-    }
-
-    return new NodeIndexPair(node, indexInNativeChildren);
-  }
-
   private void addNodeToNode(ReactShadowNode parent, ReactShadowNode child, int index) {
     int indexInNativeChildren = parent.getNativeOffsetForChild(parent.getChildAt(index));
-    if (parent.isLayoutOnly()) {
-      NodeIndexPair result = walkUpUntilNonLayoutOnly(parent, indexInNativeChildren);
-      if (result == null) {
-        // If the parent hasn't been attached to its native parent yet, don't issue commands to the
-        // native hierarchy. We'll do that when the parent node actually gets attached somewhere.
-        return;
-      }
-      parent = result.node;
-      indexInNativeChildren = result.index;
-    }
+    boolean parentIsLayoutOnly = parent.isLayoutOnly();
+    boolean childIsLayoutOnly = child.isLayoutOnly();
 
-    if (!child.isLayoutOnly()) {
-      addNonLayoutNode(parent, child, indexInNativeChildren);
+    // Switch on the four cases of:
+    //   add (layout-only|not layout-only) to (layout-only|not layout-only)
+    if (!parentIsLayoutOnly && !childIsLayoutOnly) {
+      addNonLayoutNodeToNonLayoutNode(parent, child, indexInNativeChildren);
+    } else if (!childIsLayoutOnly) {
+      addNonLayoutOnlyNodeToLayoutOnlyNode(parent, child, indexInNativeChildren);
+    } else if (!parentIsLayoutOnly) {
+      addLayoutOnlyNodeToNonLayoutOnlyNode(parent, child, indexInNativeChildren);
     } else {
-      addLayoutOnlyNode(parent, child, indexInNativeChildren);
+      addLayoutOnlyNodeToLayoutOnlyNode(parent, child, indexInNativeChildren);
     }
   }
 
@@ -290,14 +262,73 @@ public class NativeViewHierarchyOptimizer {
     }
   }
 
-  private void addLayoutOnlyNode(
+  private void addLayoutOnlyNodeToLayoutOnlyNode(
+      ReactShadowNode parent,
+      ReactShadowNode child,
+      int index) {
+    ReactShadowNode parentParent = parent.getParent();
+
+    // If the parent hasn't been attached to its parent yet, don't issue commands to the native
+    // hierarchy. We'll do that when the parent node actually gets attached somewhere.
+    if (parentParent == null) {
+      return;
+    }
+
+    int transformedIndex = index + parentParent.getNativeOffsetForChild(parent);
+    if (parentParent.isLayoutOnly()) {
+      addLayoutOnlyNodeToLayoutOnlyNode(parentParent, child, transformedIndex);
+    } else {
+      addLayoutOnlyNodeToNonLayoutOnlyNode(parentParent, child, transformedIndex);
+    }
+  }
+
+  private void addNonLayoutOnlyNodeToLayoutOnlyNode(
+      ReactShadowNode layoutOnlyNode,
+      ReactShadowNode nonLayoutOnlyNode,
+      int index) {
+    ReactShadowNode parent = layoutOnlyNode.getParent();
+
+    // If the parent hasn't been attached to its parent yet, don't issue commands to the native
+    // hierarchy. We'll do that when the parent node actually gets attached somewhere.
+    if (parent == null) {
+      return;
+    }
+
+    int transformedIndex = index + parent.getNativeOffsetForChild(layoutOnlyNode);
+    if (parent.isLayoutOnly()) {
+      addNonLayoutOnlyNodeToLayoutOnlyNode(parent, nonLayoutOnlyNode, transformedIndex);
+    } else {
+      addNonLayoutNodeToNonLayoutNode(parent, nonLayoutOnlyNode, transformedIndex);
+    }
+  }
+
+  private void addLayoutOnlyNodeToNonLayoutOnlyNode(
       ReactShadowNode nonLayoutOnlyNode,
       ReactShadowNode layoutOnlyNode,
       int index) {
-    addGrandchildren(nonLayoutOnlyNode, layoutOnlyNode, index);
+    // Add all of the layout-only node's children to its parent instead
+    int currentIndex = index;
+    for (int i = 0; i < layoutOnlyNode.getChildCount(); i++) {
+      ReactShadowNode childToAdd = layoutOnlyNode.getChildAt(i);
+      Assertions.assertCondition(childToAdd.getNativeParent() == null);
+
+      if (childToAdd.isLayoutOnly()) {
+        // Adding this layout-only child could result in adding multiple native views
+        int childCountBefore = nonLayoutOnlyNode.getNativeChildCount();
+        addLayoutOnlyNodeToNonLayoutOnlyNode(
+            nonLayoutOnlyNode,
+            childToAdd,
+            currentIndex);
+        int childCountAfter = nonLayoutOnlyNode.getNativeChildCount();
+        currentIndex += childCountAfter - childCountBefore;
+      } else {
+        addNonLayoutNodeToNonLayoutNode(nonLayoutOnlyNode, childToAdd, currentIndex);
+        currentIndex++;
+      }
+    }
   }
 
-  private void addNonLayoutNode(
+  private void addNonLayoutNodeToNonLayoutNode(
       ReactShadowNode parent,
       ReactShadowNode child,
       int index) {
@@ -307,31 +338,6 @@ public class NativeViewHierarchyOptimizer {
         null,
         new ViewAtIndex[]{new ViewAtIndex(child.getReactTag(), index)},
         null);
-  }
-
-  private void addGrandchildren(
-      ReactShadowNode nativeParent,
-      ReactShadowNode child,
-      int index) {
-    Assertions.assertCondition(!nativeParent.isLayoutOnly());
-
-    // `child` can't hold native children. Add all of `child`'s children to `parent`.
-    int currentIndex = index;
-    for (int i = 0; i < child.getChildCount(); i++) {
-      ReactShadowNode grandchild = child.getChildAt(i);
-      Assertions.assertCondition(grandchild.getNativeParent() == null);
-
-      if (grandchild.isLayoutOnly()) {
-        // Adding this child could result in adding multiple native views
-        int grandchildCountBefore = nativeParent.getNativeChildCount();
-        addLayoutOnlyNode(nativeParent, grandchild, currentIndex);
-        int grandchildCountAfter = nativeParent.getNativeChildCount();
-        currentIndex += grandchildCountAfter - grandchildCountBefore;
-      } else {
-        addNonLayoutNode(nativeParent, grandchild, currentIndex);
-        currentIndex++;
-      }
-    }
   }
 
   private void applyLayoutBase(ReactShadowNode node) {
@@ -446,7 +452,7 @@ public class NativeViewHierarchyOptimizer {
 
     ReadableMapKeySetIterator keyIterator = props.mBackingMap.keySetIterator();
     while (keyIterator.hasNextKey()) {
-      if (!ViewProps.isLayoutOnly(props.mBackingMap, keyIterator.nextKey())) {
+      if (!ViewProps.isLayoutOnly(keyIterator.nextKey())) {
         return false;
       }
     }

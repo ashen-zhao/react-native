@@ -7,28 +7,16 @@
  * of patent rights can be found in the PATENTS file in the same directory.
  */
 
-#import <CoreGraphics/CoreGraphics.h>
 #import <Foundation/Foundation.h>
+#import <CoreGraphics/CoreGraphics.h>
 
-#import <React/RCTDefines.h>
-
-static NSString *const EXTRAPOLATE_TYPE_IDENTITY = @"identity";
-static NSString *const EXTRAPOLATE_TYPE_CLAMP = @"clamp";
-static NSString *const EXTRAPOLATE_TYPE_EXTEND = @"extend";
-
-RCT_EXTERN CGFloat RCTInterpolateValueInRange(CGFloat value,
-                                              NSArray<NSNumber *> *inputRange,
-                                              NSArray<NSNumber *> *outputRange,
-                                              NSString *extrapolateLeft,
-                                              NSString *extrapolateRight);
+#import "RCTDefines.h"
 
 RCT_EXTERN CGFloat RCTInterpolateValue(CGFloat value,
-                                       CGFloat inputMin,
-                                       CGFloat inputMax,
-                                       CGFloat outputMin,
-                                       CGFloat outputMax,
-                                       NSString *extrapolateLeft,
-                                       NSString *extrapolateRight);
+                                       CGFloat fromMin,
+                                       CGFloat fromMax,
+                                       CGFloat toMin,
+                                       CGFloat toMax);
 
 RCT_EXTERN CGFloat RCTRadiansToDegrees(CGFloat radians);
 RCT_EXTERN CGFloat RCTDegreesToRadians(CGFloat degrees);

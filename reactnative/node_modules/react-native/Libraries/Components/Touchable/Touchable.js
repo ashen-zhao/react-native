@@ -12,17 +12,14 @@
 'use strict';
 
 const BoundingDimensions = require('BoundingDimensions');
-const Platform = require('Platform');
 const Position = require('Position');
-const React = require('React');
-const ReactNative = require('ReactNative');
-const TVEventHandler = require('TVEventHandler');
+const React = require('React'); // eslint-disable-line no-unused-vars
 const TouchEventUtils = require('fbjs/lib/TouchEventUtils');
-const UIManager = require('UIManager');
 const View = require('View');
 
 const keyMirror = require('fbjs/lib/keyMirror');
 const normalizeColor = require('normalizeColor');
+const queryLayoutByID = require('queryLayoutByID');
 
 /**
  * `Touchable`: Taps done right.
@@ -316,35 +313,10 @@ var LONG_PRESS_ALLOWED_MOVEMENT = 10;
  * @lends Touchable.prototype
  */
 var TouchableMixin = {
-  componentDidMount: function() {
-    if (!Platform.isTVOS) {
-      return;
-    }
-
-    this._tvEventHandler = new TVEventHandler();
-    this._tvEventHandler.enable(this, function(cmp, evt) {
-      var myTag = ReactNative.findNodeHandle(cmp);
-      evt.dispatchConfig = {};
-      if (myTag === evt.tag) {
-        if (evt.eventType === 'focus') {
-          cmp.touchableHandleActivePressIn && cmp.touchableHandleActivePressIn(evt);
-        } else if (evt.eventType === 'blur') {
-          cmp.touchableHandleActivePressOut && cmp.touchableHandleActivePressOut(evt);
-        } else if (evt.eventType === 'select') {
-          cmp.touchableHandlePress && cmp.touchableHandlePress(evt);
-        }
-      }
-    });
-  },
-
   /**
    * Clear all timeouts on unmount
    */
   componentWillUnmount: function() {
-    if (this._tvEventHandler) {
-      this._tvEventHandler.disable();
-      delete this._tvEventHandler;
-    }
     this.touchableDelayTimeout && clearTimeout(this.touchableDelayTimeout);
     this.longPressDelayTimeout && clearTimeout(this.longPressDelayTimeout);
     this.pressOutDelayTimeout && clearTimeout(this.pressOutDelayTimeout);
@@ -594,19 +566,14 @@ var TouchableMixin = {
    * @private
    */
   _remeasureMetricsOnActivation: function() {
-    const tag = this.state.touchable.responderID;
-    if (tag == null) {
-      return;
-    }
-
-    UIManager.measure(tag, this._handleQueryLayout);
+    queryLayoutByID(
+      this.state.touchable.responderID,
+      null,
+      this._handleQueryLayout
+    );
   },
 
   _handleQueryLayout: function(l, t, w, h, globalX, globalY) {
-    //don't do anything UIManager failed to measure node
-    if (!l && !t && !w && !h && !globalX && !globalY) {
-      return;
-    }
     this.state.touchable.positionOnActivate &&
       Position.release(this.state.touchable.positionOnActivate);
     this.state.touchable.dimensionsOnActivate &&
@@ -723,9 +690,16 @@ var TouchableMixin = {
     }
 
     if (newIsHighlight && !curIsHighlight) {
-      this._startHighlight(e);
-    } else if (!newIsHighlight && curIsHighlight) {
-      this._endHighlight(e);
+      this._savePressInLocation(e);
+      this.touchableHandleActivePressIn && this.touchableHandleActivePressIn(e);
+    } else if (!newIsHighlight && curIsHighlight && this.touchableHandleActivePressOut) {
+      if (this.touchableGetPressOutDelayMS && this.touchableGetPressOutDelayMS()) {
+        this.pressOutDelayTimeout = setTimeout(() => {
+          this.touchableHandleActivePressOut(e);
+        }, this.touchableGetPressOutDelayMS());
+      } else {
+        this.touchableHandleActivePressOut(e);
+      }
     }
 
     if (IsPressingIn[curState] && signal === Signals.RESPONDER_RELEASE) {
@@ -738,35 +712,13 @@ var TouchableMixin = {
 
       var shouldInvokePress =  !IsLongPressingIn[curState] || pressIsLongButStillCallOnPress;
       if (shouldInvokePress && this.touchableHandlePress) {
-        if (!newIsHighlight && !curIsHighlight) {
-          // we never highlighted because of delay, but we should highlight now
-          this._startHighlight(e);
-          this._endHighlight(e);
-        }
         this.touchableHandlePress(e);
       }
     }
 
     this.touchableDelayTimeout && clearTimeout(this.touchableDelayTimeout);
     this.touchableDelayTimeout = null;
-  },
-
-  _startHighlight: function(e) {
-    this._savePressInLocation(e);
-    this.touchableHandleActivePressIn && this.touchableHandleActivePressIn(e);
-  },
-
-  _endHighlight: function(e) {
-    if (this.touchableHandleActivePressOut) {
-      if (this.touchableGetPressOutDelayMS && this.touchableGetPressOutDelayMS()) {
-        this.pressOutDelayTimeout = setTimeout(() => {
-          this.touchableHandleActivePressOut(e);
-        }, this.touchableGetPressOutDelayMS());
-      } else {
-        this.touchableHandleActivePressOut(e);
-      }
-    }
-  },
+  }
 
 };
 

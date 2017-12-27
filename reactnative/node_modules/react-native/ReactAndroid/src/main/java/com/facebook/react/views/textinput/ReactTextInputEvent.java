@@ -29,11 +29,12 @@ public class ReactTextInputEvent extends Event<ReactTextInputEvent> {
 
   public ReactTextInputEvent(
       int viewId,
+      long timestampMs,
       String text,
       String previousText,
       int rangeStart,
       int rangeEnd) {
-    super(viewId);
+    super(viewId, timestampMs);
     mText = text;
     mPreviousText = previousText;
     mRangeStart = rangeStart;

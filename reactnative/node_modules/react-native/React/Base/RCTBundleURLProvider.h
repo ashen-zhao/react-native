@@ -9,11 +9,9 @@
 
 #import <Foundation/Foundation.h>
 
-extern NSString *const RCTBundleURLProviderUpdatedNotification;
-
-extern const NSUInteger kRCTBundleURLProviderDefaultPort;
-
 @interface RCTBundleURLProvider : NSObject
+
+extern NSString *const RCTBundleURLProviderUpdatedNotification;
 
 /**
  * Set default settings on NSUserDefaults.
@@ -33,15 +31,6 @@ extern const NSUInteger kRCTBundleURLProviderDefaultPort;
                    fallbackResource:(NSString *)resourceName;
 
 /**
- * Returns the resourceURL for a given bundle entrypoint and
- * the fallback offline resource file if the packager is not running.
- */
-- (NSURL *)resourceURLForResourceRoot:(NSString *)root
-                         resourceName:(NSString *)name
-                    resourceExtension:(NSString *)extension
-                        offlineBundle:(NSBundle *)offlineBundle;
-
-/**
  * Returns the URL of the packager server.
  */
 - (NSURL *)packagerServerURL;
@@ -56,24 +45,4 @@ extern const NSUInteger kRCTBundleURLProviderDefaultPort;
 @property (nonatomic, assign) BOOL enableDev;
 
 + (instancetype)sharedSettings;
-
-/**
- Given a hostname for the packager and a bundle root, returns the URL to the js bundle. Generally you should use the
- instance method -jsBundleURLForBundleRoot:fallbackResource: which includes logic to guess if the packager is running
- and fall back to a pre-packaged bundle if it is not.
- */
-+ (NSURL *)jsBundleURLForBundleRoot:(NSString *)bundleRoot
-                       packagerHost:(NSString *)packagerHost
-                          enableDev:(BOOL)enableDev
-                 enableMinification:(BOOL)enableMinification;
-
-/**
- * Given a hostname for the packager and a resource path (including "/"), return the URL to the resource.
- * In general, please use the instance method to decide if the packager is running and fallback to the pre-packaged
- * resource if it is not: -resourceURLForResourceRoot:resourceName:resourceExtension:offlineBundle:
- */
-+ (NSURL *)resourceURLForResourcePath:(NSString *)path
-                         packagerHost:(NSString *)packagerHost
-                                query:(NSString *)query;
-
 @end

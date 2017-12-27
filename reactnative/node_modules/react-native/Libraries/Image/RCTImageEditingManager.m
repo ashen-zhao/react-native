@@ -11,13 +11,13 @@
 
 #import <UIKit/UIKit.h>
 
-#import <React/RCTConvert.h>
-#import <React/RCTLog.h>
-#import <React/RCTUtils.h>
-
-#import "RCTImageLoader.h"
-#import "RCTImageStoreManager.h"
+#import "RCTConvert.h"
+#import "RCTLog.h"
+#import "RCTUtils.h"
 #import "RCTImageUtils.h"
+
+#import "RCTImageStoreManager.h"
+#import "RCTImageLoader.h"
 
 @implementation RCTImageEditingManager
 
@@ -67,7 +67,7 @@ RCT_EXPORT_METHOD(cropImage:(NSURLRequest *)imageRequest
     }
 
     // Store image
-    [self->_bridge.imageStoreManager storeImage:croppedImage withBlock:^(NSString *croppedImageTag) {
+    [_bridge.imageStoreManager storeImage:croppedImage withBlock:^(NSString *croppedImageTag) {
       if (!croppedImageTag) {
         NSString *errorMessage = @"Error storing cropped image in RCTImageStoreManager";
         RCTLogWarn(@"%@", errorMessage);

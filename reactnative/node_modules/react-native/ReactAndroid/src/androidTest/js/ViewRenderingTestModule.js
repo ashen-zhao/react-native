@@ -25,41 +25,42 @@ var styles = StyleSheet.create({
   },
 });
 
-class ViewSampleApp extends React.Component {
-  state = {};
-
-  render() {
+var ViewSampleApp = React.createClass({
+  render: function() {
     return (
       <View style={styles.view} collapsable={false}/>
     );
-  }
-}
+  },
+  getInitialState: function() {
+    return {};
+  },
+});
 
 var updateMargins;
-
-class MarginSampleApp extends React.Component {
-  state = {margin: 10};
-
-  render() {
+var MarginSampleApp = React.createClass({
+  getInitialState: function() {
+    return {margin: 10};
+  },
+  render: function() {
     updateMargins = this.setState.bind(this, {margin: 15});
     return (
       <View style={{margin: this.state.margin, marginLeft: 20}} collapsable={false}/>
     )
-  }
-}
+  },
+});
 
-class BorderSampleApp extends React.Component {
-  render() {
+var BorderSampleApp = React.createClass({
+  render: function() {
     return (
       <View style={{borderLeftWidth: 20, borderWidth: 5, backgroundColor: 'blue'}} collapsable={false}>
         <View style={{backgroundColor: 'red', width: 20, height: 20}} collapsable={false}/>
       </View>
     );
   }
-}
+});
 
-class TransformSampleApp extends React.Component {
-  render() {
+var TransformSampleApp = React.createClass({
+  render: function() {
     var style = {
       transform: [
         {translateX: 20},
@@ -73,7 +74,7 @@ class TransformSampleApp extends React.Component {
       <View style={style} collapsable={false}/>
     );
   }
-}
+});
 
 var ViewRenderingTestModule = {
   renderViewApplication: function(rootTag) {

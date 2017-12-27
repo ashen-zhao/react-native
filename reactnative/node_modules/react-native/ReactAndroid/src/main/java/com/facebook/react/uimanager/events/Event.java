@@ -9,8 +9,6 @@
 
 package com.facebook.react.uimanager.events;
 
-import com.facebook.react.common.SystemClock;
-
 /**
  * A UI event that can be dispatched to JS.
  *
@@ -30,16 +28,16 @@ public abstract class Event<T extends Event> {
   protected Event() {
   }
 
-  protected Event(int viewTag) {
-    init(viewTag);
+  protected Event(int viewTag, long timestampMs) {
+    init(viewTag, timestampMs);
   }
 
   /**
    * This method needs to be called before event is sent to event dispatcher.
    */
-  protected void init(int viewTag) {
+  protected void init(int viewTag, long timestampMs) {
     mViewTag = viewTag;
-    mTimestampMs = SystemClock.uptimeMillis();
+    mTimestampMs = timestampMs;
     mInitialized = true;
   }
 
@@ -67,13 +65,13 @@ public abstract class Event<T extends Event> {
 
   /**
    * Given two events, coalesce them into a single event that will be sent to JS instead of two
-   * separate events. By default, just chooses the one the is more recent, or {@code this} if timestamps are the same.
+   * separate events. By default, just chooses the one the is more recent.
    *
    * Two events will only ever try to be coalesced if they have the same event name, view id, and
    * coalescing key.
    */
   public T coalesce(T otherEvent) {
-    return (T) (getTimestampMs() >= otherEvent.getTimestampMs() ? this : otherEvent);
+    return (T) (getTimestampMs() > otherEvent.getTimestampMs() ? this : otherEvent);
   }
 
   /**

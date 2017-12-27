@@ -11,7 +11,6 @@ package com.facebook.react.uimanager;
 import java.util.List;
 
 import com.facebook.react.bridge.ReactApplicationContext;
-import com.facebook.react.uimanager.events.EventDispatcher;
 
 /**
  * Provides UIImplementation to use in {@link UIManagerModule}.
@@ -19,8 +18,7 @@ import com.facebook.react.uimanager.events.EventDispatcher;
 public class UIImplementationProvider {
   public UIImplementation createUIImplementation(
       ReactApplicationContext reactContext,
-      List<ViewManager> viewManagers,
-      EventDispatcher eventDispatcher) {
-    return new UIImplementation(reactContext, viewManagers, eventDispatcher);
+      List<ViewManager> viewManagers) {
+    return new UIImplementation(reactContext, viewManagers);
   }
 }

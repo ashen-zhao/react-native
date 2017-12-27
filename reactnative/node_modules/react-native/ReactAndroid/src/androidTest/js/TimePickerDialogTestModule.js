@@ -17,11 +17,11 @@ var React = require('React');
 var RecordingModule = require('NativeModules').TimePickerDialogRecordingModule;
 var View = require('View');
 
-class TimePickerDialogTestApp extends React.Component {
-  render() {
+var TimePickerDialogTestApp = React.createClass({
+  render: function() {
     return <View />;
-  }
-}
+  },
+});
 
 var TimePickerDialogTestModule = {
   TimePickerDialogTestApp: TimePickerDialogTestApp,

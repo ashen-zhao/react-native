@@ -17,8 +17,8 @@ var StyleSheet = require('StyleSheet');
 var Text = require('Text');
 var View = require('View');
 
-class PerformanceOverlay extends React.Component {
-  render() {
+var PerformanceOverlay = React.createClass({
+  render: function() {
     var perfLogs = PerformanceLogger.getTimespans();
     var items = [];
 
@@ -42,7 +42,7 @@ class PerformanceOverlay extends React.Component {
       </View>
     );
   }
-}
+});
 
 var styles = StyleSheet.create({
   container: {

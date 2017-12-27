@@ -12,7 +12,7 @@
 'use strict';
 
 var HeapCapture = {
-  captureHeap: function (path: string) {
+  captureHeap: function (token: number, path: string) {
     var error = null;
     try {
       global.nativeCaptureHeap(path);
@@ -21,7 +21,7 @@ var HeapCapture = {
       console.log('HeapCapture.captureHeap error: ' + e.toString());
       error = e.toString();
     }
-    require('NativeModules').JSCHeapCapture.captureComplete(path, error);
+    require('NativeModules').JSCHeapCapture.operationComplete(token, error);
   },
 };
 

@@ -10,6 +10,7 @@
 
 const chalk = require('chalk');
 const child_process = require('child_process');
+const Promise = require('promise');
 
 /**
  * Starts adb logcat
@@ -20,7 +21,7 @@ function logAndroid() {
   });
 }
 
-function _logAndroid() {
+function _logAndroid(resolve, reject) {
   try {
     const adbPath = process.env.ANDROID_HOME
       ? process.env.ANDROID_HOME + '/platform-tools/adb'
@@ -42,12 +43,9 @@ function _logAndroid() {
     console.log(chalk.red(
       'adb invocation failed. Do you have adb in your PATH?'
     ));
-    return Promise.reject();
+    reject();
+    return;
   }
 }
 
-module.exports = {
-  name: 'log-android',
-  description: 'starts adb logcat',
-  func: logAndroid,
-};
+module.exports = logAndroid;

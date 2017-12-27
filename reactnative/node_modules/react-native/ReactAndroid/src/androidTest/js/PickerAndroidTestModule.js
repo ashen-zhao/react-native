@@ -20,19 +20,18 @@ var View = require('View');
 var Item = Picker.Item;
 
 var appInstance;
-
-class PickerAndroidTestApp extends React.Component {
-  state = {
-    selected: 1,
-    mode: 'dropdown',
-    style: {},
-  };
-
-  componentWillMount() {
+var PickerAndroidTestApp = React.createClass({
+  componentWillMount: function() {
     appInstance = this;
-  }
-
-  render() {
+  },
+  getInitialState: function() {
+    return {
+      selected: 1,
+      mode: 'dropdown',
+      style: {},
+    };
+  },
+  render: function() {
     return (
       <View collapsable={false}>
         <Picker
@@ -63,13 +62,12 @@ class PickerAndroidTestApp extends React.Component {
         </Picker>
       </View>
     );
-  }
-
-  onValueChange = (value) => {
+  },
+  onValueChange: function(value) {
     this.setState({selected: value});
     RecordingModule.recordSelection(value);
-  };
-}
+  },
+});
 
 var PickerAndroidTestModule = {
   PickerAndroidTestApp: PickerAndroidTestApp,

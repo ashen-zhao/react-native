@@ -144,7 +144,7 @@ RCT_NOT_IMPLEMENTED(- (instancetype)init)
   static NSTimeInterval lastCommand = 0;
   static NSTimeInterval lastDoubleCommand = 0;
   static NSString *lastInput = nil;
-  static UIKeyModifierFlags lastModifierFlags = 0;
+  static UIKeyModifierFlags lastModifierFlags = nil;
 
   if (firstPress) {
     for (RCTKeyCommand *command in [RCTKeyCommands sharedInstance].commands) {

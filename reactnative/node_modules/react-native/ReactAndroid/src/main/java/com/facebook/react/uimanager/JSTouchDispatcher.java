@@ -15,6 +15,7 @@ import android.view.ViewGroup;
 import com.facebook.common.logging.FLog;
 import com.facebook.infer.annotation.Assertions;
 import com.facebook.react.common.ReactConstants;
+import com.facebook.react.common.SystemClock;
 import com.facebook.react.uimanager.events.EventDispatcher;
 import com.facebook.react.uimanager.events.TouchEvent;
 import com.facebook.react.uimanager.events.TouchEventCoalescingKeyHelper;
@@ -30,7 +31,6 @@ public class JSTouchDispatcher {
   private int mTargetTag = -1;
   private final float[] mTargetCoordinates = new float[2];
   private boolean mChildIsHandlingNativeGesture = false;
-  private long mGestureStartTime = TouchEvent.UNSET;
   private final ViewGroup mRootViewGroup;
   private final TouchEventCoalescingKeyHelper mTouchEventCoalescingKeyHelper =
     new TouchEventCoalescingKeyHelper();
@@ -73,7 +73,6 @@ public class JSTouchDispatcher {
       // {@link #findTargetTagForTouch} to find react view ID that will be responsible for handling
       // this gesture
       mChildIsHandlingNativeGesture = false;
-      mGestureStartTime = ev.getEventTime();
       mTargetTag = TouchTargetHelper.findTargetTagAndCoordinatesForTouch(
         ev.getX(),
         ev.getY(),
@@ -83,9 +82,9 @@ public class JSTouchDispatcher {
       eventDispatcher.dispatchEvent(
         TouchEvent.obtain(
           mTargetTag,
+          SystemClock.nanoTime(),
           TouchEventType.START,
           ev,
-          mGestureStartTime,
           mTargetCoordinates[0],
           mTargetCoordinates[1],
           mTouchEventCoalescingKeyHelper));
@@ -106,22 +105,21 @@ public class JSTouchDispatcher {
       eventDispatcher.dispatchEvent(
         TouchEvent.obtain(
           mTargetTag,
+          SystemClock.nanoTime(),
           TouchEventType.END,
           ev,
-          mGestureStartTime,
           mTargetCoordinates[0],
           mTargetCoordinates[1],
           mTouchEventCoalescingKeyHelper));
       mTargetTag = -1;
-      mGestureStartTime = TouchEvent.UNSET;
     } else if (action == MotionEvent.ACTION_MOVE) {
       // Update pointer position for current gesture
       eventDispatcher.dispatchEvent(
         TouchEvent.obtain(
           mTargetTag,
+          SystemClock.nanoTime(),
           TouchEventType.MOVE,
           ev,
-          mGestureStartTime,
           mTargetCoordinates[0],
           mTargetCoordinates[1],
           mTouchEventCoalescingKeyHelper));
@@ -130,9 +128,9 @@ public class JSTouchDispatcher {
       eventDispatcher.dispatchEvent(
         TouchEvent.obtain(
           mTargetTag,
+          SystemClock.nanoTime(),
           TouchEventType.START,
           ev,
-          mGestureStartTime,
           mTargetCoordinates[0],
           mTargetCoordinates[1],
           mTouchEventCoalescingKeyHelper));
@@ -141,9 +139,9 @@ public class JSTouchDispatcher {
       eventDispatcher.dispatchEvent(
         TouchEvent.obtain(
           mTargetTag,
+          SystemClock.nanoTime(),
           TouchEventType.END,
           ev,
-          mGestureStartTime,
           mTargetCoordinates[0],
           mTargetCoordinates[1],
           mTouchEventCoalescingKeyHelper));
@@ -157,7 +155,6 @@ public class JSTouchDispatcher {
         );
       }
       mTargetTag = -1;
-      mGestureStartTime = TouchEvent.UNSET;
     } else {
       FLog.w(
         ReactConstants.TAG,
@@ -183,9 +180,9 @@ public class JSTouchDispatcher {
     Assertions.assertNotNull(eventDispatcher).dispatchEvent(
       TouchEvent.obtain(
         mTargetTag,
+        SystemClock.nanoTime(),
         TouchEventType.CANCEL,
         androidEvent,
-        mGestureStartTime,
         mTargetCoordinates[0],
         mTargetCoordinates[1],
         mTouchEventCoalescingKeyHelper));

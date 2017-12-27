@@ -27,9 +27,10 @@ import com.facebook.react.uimanager.events.RCTEventEmitter;
 
   public ReactTextInputSelectionEvent(
       int viewId,
+      long timestampMs,
       int selectionStart,
       int selectionEnd) {
-    super(viewId);
+    super(viewId, timestampMs);
     mSelectionStart = selectionStart;
     mSelectionEnd = selectionEnd;
   }
@@ -48,8 +49,8 @@ import com.facebook.react.uimanager.events.RCTEventEmitter;
     WritableMap eventData = Arguments.createMap();
 
     WritableMap selectionData = Arguments.createMap();
-    selectionData.putInt("end", mSelectionEnd);
     selectionData.putInt("start", mSelectionStart);
+    selectionData.putInt("end", mSelectionEnd);
 
     eventData.putMap("selection", selectionData);
     return eventData;

@@ -15,14 +15,13 @@ var React = require('React');
 var RecordingModule = require('NativeModules').InitialPropsRecordingModule;
 var Text = require('Text');
 
-class InitialPropsTestApp extends React.Component {
-  componentDidMount() {
+var InitialPropsTestApp = React.createClass({
+  componentDidMount: function() {
     RecordingModule.recordProps(this.props);
-  }
-
-  render() {
+  },
+  render: function() {
     return <Text>dummy</Text>;
   }
-}
+});
 
 module.exports = InitialPropsTestApp;

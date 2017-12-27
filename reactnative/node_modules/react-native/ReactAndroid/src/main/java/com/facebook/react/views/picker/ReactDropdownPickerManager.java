@@ -11,16 +11,14 @@ package com.facebook.react.views.picker;
 
 import android.widget.Spinner;
 
-import com.facebook.react.module.annotations.ReactModule;
 import com.facebook.react.uimanager.ThemedReactContext;
 
 /**
  * {@link ReactPickerManager} for {@link ReactPicker} with {@link Spinner#MODE_DROPDOWN}.
  */
-@ReactModule(name = ReactDropdownPickerManager.REACT_CLASS)
 public class ReactDropdownPickerManager extends ReactPickerManager {
 
-  protected static final String REACT_CLASS = "AndroidDropdownPicker";
+  private static final String REACT_CLASS = "AndroidDropdownPicker";
 
   @Override
   public String getName() {

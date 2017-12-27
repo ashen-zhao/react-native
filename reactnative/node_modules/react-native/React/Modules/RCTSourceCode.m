@@ -9,7 +9,10 @@
 
 #import "RCTSourceCode.h"
 
+#import "RCTDefines.h"
+#import "RCTAssert.h"
 #import "RCTBridge.h"
+#import "RCTUtils.h"
 
 @implementation RCTSourceCode
 
@@ -19,9 +22,8 @@ RCT_EXPORT_MODULE()
 
 - (NSDictionary<NSString *, id> *)constantsToExport
 {
-  return @{
-    @"scriptURL": self.bridge.bundleURL.absoluteString ?: @""
-  };
+  NSString *URL = self.bridge.bundleURL.absoluteString ?: @"";
+  return @{@"scriptURL": URL};
 }
 
 @end

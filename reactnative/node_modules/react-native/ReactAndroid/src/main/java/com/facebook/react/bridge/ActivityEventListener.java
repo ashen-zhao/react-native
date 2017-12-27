@@ -2,22 +2,15 @@
 
 package com.facebook.react.bridge;
 
-import android.app.Activity;
 import android.content.Intent;
 
 /**
- * Listener for receiving activity events. Consider using {@link BaseActivityEventListener} if
- * you're not interested in all the events sent to this interface.
+ * Listener for receiving activity events.
  */
 public interface ActivityEventListener {
 
   /**
    * Called when host (activity/service) receives an {@link Activity#onActivityResult} call.
    */
-  void onActivityResult(Activity activity, int requestCode, int resultCode, Intent data);
-
-  /**
-   * Called when a new intent is passed to the activity
-   */
-  void onNewIntent(Intent intent);
+  void onActivityResult(int requestCode, int resultCode, Intent data);
 }

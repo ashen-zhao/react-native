@@ -16,14 +16,10 @@ import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.bridge.ReactContextBaseJavaModule;
 import com.facebook.react.bridge.ReactMethod;
 import com.facebook.react.bridge.WritableMap;
-import com.facebook.react.module.annotations.ReactModule;
 import com.facebook.react.modules.core.DeviceEventManagerModule.RCTDeviceEventEmitter;
 
-@ReactModule(name = AppStateModule.NAME)
 public class AppStateModule extends ReactContextBaseJavaModule
         implements LifecycleEventListener {
-
-  protected static final String NAME = "AppState";
 
   public static final String APP_STATE_ACTIVE = "active";
   public static final String APP_STATE_BACKGROUND = "background";
@@ -36,7 +32,7 @@ public class AppStateModule extends ReactContextBaseJavaModule
 
   @Override
   public String getName() {
-    return NAME;
+    return "AppState";
   }
 
   @Override

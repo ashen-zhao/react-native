@@ -15,7 +15,6 @@ import android.content.Context;
 import android.widget.ProgressBar;
 
 import com.facebook.react.bridge.JSApplicationIllegalArgumentException;
-import com.facebook.react.module.annotations.ReactModule;
 import com.facebook.react.uimanager.BaseViewManager;
 import com.facebook.react.uimanager.annotations.ReactProp;
 import com.facebook.react.uimanager.ThemedReactContext;
@@ -27,17 +26,15 @@ import com.facebook.react.uimanager.ViewProps;
  * ProgressBar changes, we have to drop the existing ProgressBar (if there is one) and create a new
  * one with the style given.
  */
-@ReactModule(name = ReactProgressBarViewManager.REACT_CLASS)
 public class ReactProgressBarViewManager extends
     BaseViewManager<ProgressBarContainerView, ProgressBarShadowNode> {
-
-  protected static final String REACT_CLASS = "AndroidProgressBar";
 
   /* package */ static final String PROP_STYLE = "styleAttr";
   /* package */ static final String PROP_INDETERMINATE = "indeterminate";
   /* package */ static final String PROP_PROGRESS = "progress";
   /* package */ static final String PROP_ANIMATING = "animating";
 
+  /* package */ static final String REACT_CLASS = "AndroidProgressBar";
   /* package */ static final String DEFAULT_STYLE = "Normal";
 
   private static Object sProgressBarCtorLock = new Object();
@@ -130,4 +127,5 @@ public class ReactProgressBarViewManager extends
       throw new JSApplicationIllegalArgumentException("Unknown ProgressBar style: " + styleStr);
     }
   }
+
 }

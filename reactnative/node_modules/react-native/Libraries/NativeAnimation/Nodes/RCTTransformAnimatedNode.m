@@ -12,48 +12,41 @@
 
 @implementation RCTTransformAnimatedNode
 {
-  NSMutableDictionary<NSString *, NSObject *> *_propsDictionary;
+  NSMutableDictionary<NSString *, NSNumber *> *_updatedPropsDictionary;
 }
 
 - (instancetype)initWithTag:(NSNumber *)tag
                      config:(NSDictionary<NSString *, id> *)config;
 {
   if ((self = [super initWithTag:tag config:config])) {
-    _propsDictionary = [NSMutableDictionary new];
+    _updatedPropsDictionary = [NSMutableDictionary new];
   }
   return self;
 }
 
-- (NSDictionary *)propsDictionary
+- (NSDictionary *)updatedPropsDictionary
 {
-  return _propsDictionary;
+  return _updatedPropsDictionary;
 }
 
 - (void)performUpdate
 {
   [super performUpdate];
 
-  NSArray<NSDictionary *> *transformConfigs = self.config[@"transforms"];
-  NSMutableArray<NSDictionary *> *transform = [NSMutableArray arrayWithCapacity:transformConfigs.count];
-  for (NSDictionary *transformConfig in transformConfigs) {
-    NSString *type = transformConfig[@"type"];
-    NSString *property = transformConfig[@"property"];
-    NSNumber *value;
-    if ([type isEqualToString: @"animated"]) {
-      NSNumber *nodeTag = transformConfig[@"nodeTag"];
-      RCTAnimatedNode *node = self.parentNodes[nodeTag];
-      if (![node isKindOfClass:[RCTValueAnimatedNode class]]) {
-        continue;
-      }
+  NSDictionary<NSString *, NSNumber *> *transforms = self.config[@"transform"];
+  [transforms enumerateKeysAndObjectsUsingBlock:^(NSString *property, NSNumber *nodeTag, __unused BOOL *stop) {
+    RCTAnimatedNode *node = self.parentNodes[nodeTag];
+    if (node.hasUpdated && [node isKindOfClass:[RCTValueAnimatedNode class]]) {
       RCTValueAnimatedNode *parentNode = (RCTValueAnimatedNode *)node;
-      value = @(parentNode.value);
-    } else {
-      value = transformConfig[@"value"];
+      self->_updatedPropsDictionary[property] = @(parentNode.value);
     }
-    [transform addObject:@{property: value}];
-  }
+  }];
+}
 
-  _propsDictionary[@"transform"] = transform;
+- (void)cleanupAnimationUpdate
+{
+  [super cleanupAnimationUpdate];
+  [_updatedPropsDictionary removeAllObjects];
 }
 
 @end

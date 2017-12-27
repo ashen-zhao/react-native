@@ -17,11 +17,11 @@ var React = require('React');
 var RecordingModule = require('NativeModules').DatePickerDialogRecordingModule;
 var View = require('View');
 
-class DatePickerDialogTestApp extends React.Component {
-  render() {
+var DatePickerDialogTestApp = React.createClass({
+  render: function() {
     return (<View />);
-  }
-}
+  },
+});
 
 var DatePickerDialogTestModule = {
   DatePickerDialogTestApp: DatePickerDialogTestApp,
