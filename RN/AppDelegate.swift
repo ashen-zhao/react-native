@@ -9,12 +9,21 @@
 import UIKit
 
 @UIApplicationMain
+
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        MXFileHelper.shared().downloadFile(withURLString: "http://localhost/~ashen/jsbundle1.zip") { (status, data) in
+            
+            let filepath = data as! String
+            let despath = NSSearchPathForDirectoriesInDomains(FileManager.SearchPathDirectory.documentDirectory, FileManager.SearchPathDomainMask.userDomainMask, true).first
+            
+            try! SSZipArchive.unzipFile(atPath: filepath, toDestination: despath, overwrite: true, password: nil)
+        }
+
         return true
     }
 

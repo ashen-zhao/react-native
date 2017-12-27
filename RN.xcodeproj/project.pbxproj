@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4A46C99F2EFCB2549E1D3BB4 /* Pods_RN.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C09C0028975EF4BABA673CE7 /* Pods_RN.framework */; };
 		8C4627121E497775002A60BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4627111E497775002A60BC /* AppDelegate.swift */; };
 		8C4627141E497775002A60BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4627131E497775002A60BC /* ViewController.swift */; };
 		8C4627171E497775002A60BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C4627151E497775002A60BC /* Main.storyboard */; };
@@ -15,8 +14,28 @@
 		8C46271C1E497775002A60BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C46271A1E497775002A60BC /* LaunchScreen.storyboard */; };
 		8C46272A1E49972D002A60BC /* RNController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4627291E49972D002A60BC /* RNController.swift */; };
 		8C46272C1E499D3A002A60BC /* RNView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C46272B1E499D3A002A60BC /* RNView.swift */; };
+		8CBFE3EA1F5FDA9000A43D98 /* aescrypt.c in Sources */ = {isa = PBXBuildFile; fileRef = 8CBFE3C81F5FDA9000A43D98 /* aescrypt.c */; };
+		8CBFE3EB1F5FDA9000A43D98 /* aeskey.c in Sources */ = {isa = PBXBuildFile; fileRef = 8CBFE3C91F5FDA9000A43D98 /* aeskey.c */; };
+		8CBFE3EC1F5FDA9000A43D98 /* aestab.c in Sources */ = {isa = PBXBuildFile; fileRef = 8CBFE3CB1F5FDA9000A43D98 /* aestab.c */; };
+		8CBFE3ED1F5FDA9000A43D98 /* entropy.c in Sources */ = {isa = PBXBuildFile; fileRef = 8CBFE3CF1F5FDA9000A43D98 /* entropy.c */; };
+		8CBFE3EE1F5FDA9000A43D98 /* fileenc.c in Sources */ = {isa = PBXBuildFile; fileRef = 8CBFE3D11F5FDA9000A43D98 /* fileenc.c */; };
+		8CBFE3EF1F5FDA9000A43D98 /* hmac.c in Sources */ = {isa = PBXBuildFile; fileRef = 8CBFE3D31F5FDA9000A43D98 /* hmac.c */; };
+		8CBFE3F01F5FDA9000A43D98 /* prng.c in Sources */ = {isa = PBXBuildFile; fileRef = 8CBFE3D51F5FDA9000A43D98 /* prng.c */; };
+		8CBFE3F11F5FDA9000A43D98 /* pwd2key.c in Sources */ = {isa = PBXBuildFile; fileRef = 8CBFE3D71F5FDA9000A43D98 /* pwd2key.c */; };
+		8CBFE3F21F5FDA9000A43D98 /* sha1.c in Sources */ = {isa = PBXBuildFile; fileRef = 8CBFE3D91F5FDA9000A43D98 /* sha1.c */; };
+		8CBFE3F31F5FDA9000A43D98 /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 8CBFE3DE1F5FDA9000A43D98 /* ioapi.c */; };
+		8CBFE3F41F5FDA9000A43D98 /* mztools.c in Sources */ = {isa = PBXBuildFile; fileRef = 8CBFE3E01F5FDA9000A43D98 /* mztools.c */; };
+		8CBFE3F51F5FDA9000A43D98 /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = 8CBFE3E21F5FDA9000A43D98 /* unzip.c */; };
+		8CBFE3F61F5FDA9000A43D98 /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 8CBFE3E41F5FDA9000A43D98 /* zip.c */; };
+		8CBFE3F71F5FDA9000A43D98 /* SSZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CBFE3E71F5FDA9000A43D98 /* SSZipArchive.m */; };
+		8CBFE3FF1F5FDC3A00A43D98 /* MXBundleHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CBFE3FA1F5FDC3A00A43D98 /* MXBundleHelper.m */; };
+		8CBFE4001F5FDC3A00A43D98 /* MXFileHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CBFE3FC1F5FDC3A00A43D98 /* MXFileHelper.m */; };
+		8CBFE4011F5FDC3A00A43D98 /* MXUpdateHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CBFE3FE1F5FDC3A00A43D98 /* MXUpdateHelper.m */; };
+		8CBFE4051F5FDE8700A43D98 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CBFE4041F5FDE8700A43D98 /* libz.tbd */; };
 		8CC5BA171E700EE200243426 /* RTModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CC5BA161E700EE200243426 /* RTModule.m */; };
 		8CC5BA261E7011E900243426 /* OriginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC5BA251E7011E900243426 /* OriginController.swift */; };
+		8CEF7A4D1F6B9E28005F46BB /* jsbundle.zip in Resources */ = {isa = PBXBuildFile; fileRef = 8CEF7A4C1F6B9E28005F46BB /* jsbundle.zip */; };
+		B60F229D4A9EAC3F77C5E38A /* Pods_RN.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA7D18206CB109BC411A48B1 /* Pods_RN.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,11 +50,52 @@
 		8C46271D1E497775002A60BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8C4627291E49972D002A60BC /* RNController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNController.swift; sourceTree = "<group>"; };
 		8C46272B1E499D3A002A60BC /* RNView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNView.swift; sourceTree = "<group>"; };
+		8CBFE3C61F5FDA9000A43D98 /* aes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aes.h; sourceTree = "<group>"; };
+		8CBFE3C71F5FDA9000A43D98 /* aes_via_ace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aes_via_ace.h; sourceTree = "<group>"; };
+		8CBFE3C81F5FDA9000A43D98 /* aescrypt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aescrypt.c; sourceTree = "<group>"; };
+		8CBFE3C91F5FDA9000A43D98 /* aeskey.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aeskey.c; sourceTree = "<group>"; };
+		8CBFE3CA1F5FDA9000A43D98 /* aesopt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aesopt.h; sourceTree = "<group>"; };
+		8CBFE3CB1F5FDA9000A43D98 /* aestab.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aestab.c; sourceTree = "<group>"; };
+		8CBFE3CC1F5FDA9000A43D98 /* aestab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aestab.h; sourceTree = "<group>"; };
+		8CBFE3CD1F5FDA9000A43D98 /* brg_endian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = brg_endian.h; sourceTree = "<group>"; };
+		8CBFE3CE1F5FDA9000A43D98 /* brg_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = brg_types.h; sourceTree = "<group>"; };
+		8CBFE3CF1F5FDA9000A43D98 /* entropy.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = entropy.c; sourceTree = "<group>"; };
+		8CBFE3D01F5FDA9000A43D98 /* entropy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = entropy.h; sourceTree = "<group>"; };
+		8CBFE3D11F5FDA9000A43D98 /* fileenc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fileenc.c; sourceTree = "<group>"; };
+		8CBFE3D21F5FDA9000A43D98 /* fileenc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fileenc.h; sourceTree = "<group>"; };
+		8CBFE3D31F5FDA9000A43D98 /* hmac.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hmac.c; sourceTree = "<group>"; };
+		8CBFE3D41F5FDA9000A43D98 /* hmac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hmac.h; sourceTree = "<group>"; };
+		8CBFE3D51F5FDA9000A43D98 /* prng.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = prng.c; sourceTree = "<group>"; };
+		8CBFE3D61F5FDA9000A43D98 /* prng.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = prng.h; sourceTree = "<group>"; };
+		8CBFE3D71F5FDA9000A43D98 /* pwd2key.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pwd2key.c; sourceTree = "<group>"; };
+		8CBFE3D81F5FDA9000A43D98 /* pwd2key.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pwd2key.h; sourceTree = "<group>"; };
+		8CBFE3D91F5FDA9000A43D98 /* sha1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sha1.c; sourceTree = "<group>"; };
+		8CBFE3DA1F5FDA9000A43D98 /* sha1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sha1.h; sourceTree = "<group>"; };
+		8CBFE3DB1F5FDA9000A43D98 /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		8CBFE3DD1F5FDA9000A43D98 /* crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypt.h; sourceTree = "<group>"; };
+		8CBFE3DE1F5FDA9000A43D98 /* ioapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ioapi.c; sourceTree = "<group>"; };
+		8CBFE3DF1F5FDA9000A43D98 /* ioapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ioapi.h; sourceTree = "<group>"; };
+		8CBFE3E01F5FDA9000A43D98 /* mztools.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mztools.c; sourceTree = "<group>"; };
+		8CBFE3E11F5FDA9000A43D98 /* mztools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mztools.h; sourceTree = "<group>"; };
+		8CBFE3E21F5FDA9000A43D98 /* unzip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = unzip.c; sourceTree = "<group>"; };
+		8CBFE3E31F5FDA9000A43D98 /* unzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unzip.h; sourceTree = "<group>"; };
+		8CBFE3E41F5FDA9000A43D98 /* zip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zip.c; sourceTree = "<group>"; };
+		8CBFE3E51F5FDA9000A43D98 /* zip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zip.h; sourceTree = "<group>"; };
+		8CBFE3E61F5FDA9000A43D98 /* SSZipArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSZipArchive.h; sourceTree = "<group>"; };
+		8CBFE3E71F5FDA9000A43D98 /* SSZipArchive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSZipArchive.m; sourceTree = "<group>"; };
+		8CBFE3F91F5FDC3A00A43D98 /* MXBundleHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXBundleHelper.h; sourceTree = "<group>"; };
+		8CBFE3FA1F5FDC3A00A43D98 /* MXBundleHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXBundleHelper.m; sourceTree = "<group>"; };
+		8CBFE3FB1F5FDC3A00A43D98 /* MXFileHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXFileHelper.h; sourceTree = "<group>"; };
+		8CBFE3FC1F5FDC3A00A43D98 /* MXFileHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXFileHelper.m; sourceTree = "<group>"; };
+		8CBFE3FD1F5FDC3A00A43D98 /* MXUpdateHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXUpdateHelper.h; sourceTree = "<group>"; };
+		8CBFE3FE1F5FDC3A00A43D98 /* MXUpdateHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXUpdateHelper.m; sourceTree = "<group>"; };
+		8CBFE4041F5FDE8700A43D98 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		8CC5BA141E700EE200243426 /* RN-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RN-Bridging-Header.h"; sourceTree = "<group>"; };
 		8CC5BA151E700EE200243426 /* RTModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTModule.h; sourceTree = "<group>"; };
 		8CC5BA161E700EE200243426 /* RTModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTModule.m; sourceTree = "<group>"; };
 		8CC5BA251E7011E900243426 /* OriginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OriginController.swift; sourceTree = "<group>"; };
-		C09C0028975EF4BABA673CE7 /* Pods_RN.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RN.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CEF7A4C1F6B9E28005F46BB /* jsbundle.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = jsbundle.zip; sourceTree = "<group>"; };
+		BA7D18206CB109BC411A48B1 /* Pods_RN.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RN.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,7 +103,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A46C99F2EFCB2549E1D3BB4 /* Pods_RN.framework in Frameworks */,
+				8CBFE4051F5FDE8700A43D98 /* libz.tbd in Frameworks */,
+				B60F229D4A9EAC3F77C5E38A /* Pods_RN.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,7 +114,8 @@
 		5ABCFECBB24658B259FE4EC3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C09C0028975EF4BABA673CE7 /* Pods_RN.framework */,
+				8CBFE4041F5FDE8700A43D98 /* libz.tbd */,
+				BA7D18206CB109BC411A48B1 /* Pods_RN.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -88,6 +150,9 @@
 		8C4627101E497775002A60BC /* RN */ = {
 			isa = PBXGroup;
 			children = (
+				8CEF7A4C1F6B9E28005F46BB /* jsbundle.zip */,
+				8CBFE4031F5FDC6C00A43D98 /* Zip */,
+				8CBFE4021F5FDC5F00A43D98 /* DownLoad */,
 				8C4627111E497775002A60BC /* AppDelegate.swift */,
 				8CC5BA141E700EE200243426 /* RN-Bridging-Header.h */,
 				8C46272B1E499D3A002A60BC /* RNView.swift */,
@@ -102,6 +167,75 @@
 				8C46271D1E497775002A60BC /* Info.plist */,
 			);
 			path = RN;
+			sourceTree = "<group>";
+		};
+		8CBFE3C51F5FDA9000A43D98 /* aes */ = {
+			isa = PBXGroup;
+			children = (
+				8CBFE3C61F5FDA9000A43D98 /* aes.h */,
+				8CBFE3C71F5FDA9000A43D98 /* aes_via_ace.h */,
+				8CBFE3C81F5FDA9000A43D98 /* aescrypt.c */,
+				8CBFE3C91F5FDA9000A43D98 /* aeskey.c */,
+				8CBFE3CA1F5FDA9000A43D98 /* aesopt.h */,
+				8CBFE3CB1F5FDA9000A43D98 /* aestab.c */,
+				8CBFE3CC1F5FDA9000A43D98 /* aestab.h */,
+				8CBFE3CD1F5FDA9000A43D98 /* brg_endian.h */,
+				8CBFE3CE1F5FDA9000A43D98 /* brg_types.h */,
+				8CBFE3CF1F5FDA9000A43D98 /* entropy.c */,
+				8CBFE3D01F5FDA9000A43D98 /* entropy.h */,
+				8CBFE3D11F5FDA9000A43D98 /* fileenc.c */,
+				8CBFE3D21F5FDA9000A43D98 /* fileenc.h */,
+				8CBFE3D31F5FDA9000A43D98 /* hmac.c */,
+				8CBFE3D41F5FDA9000A43D98 /* hmac.h */,
+				8CBFE3D51F5FDA9000A43D98 /* prng.c */,
+				8CBFE3D61F5FDA9000A43D98 /* prng.h */,
+				8CBFE3D71F5FDA9000A43D98 /* pwd2key.c */,
+				8CBFE3D81F5FDA9000A43D98 /* pwd2key.h */,
+				8CBFE3D91F5FDA9000A43D98 /* sha1.c */,
+				8CBFE3DA1F5FDA9000A43D98 /* sha1.h */,
+			);
+			path = aes;
+			sourceTree = "<group>";
+		};
+		8CBFE3DC1F5FDA9000A43D98 /* minizip */ = {
+			isa = PBXGroup;
+			children = (
+				8CBFE3DD1F5FDA9000A43D98 /* crypt.h */,
+				8CBFE3DE1F5FDA9000A43D98 /* ioapi.c */,
+				8CBFE3DF1F5FDA9000A43D98 /* ioapi.h */,
+				8CBFE3E01F5FDA9000A43D98 /* mztools.c */,
+				8CBFE3E11F5FDA9000A43D98 /* mztools.h */,
+				8CBFE3E21F5FDA9000A43D98 /* unzip.c */,
+				8CBFE3E31F5FDA9000A43D98 /* unzip.h */,
+				8CBFE3E41F5FDA9000A43D98 /* zip.c */,
+				8CBFE3E51F5FDA9000A43D98 /* zip.h */,
+			);
+			path = minizip;
+			sourceTree = "<group>";
+		};
+		8CBFE4021F5FDC5F00A43D98 /* DownLoad */ = {
+			isa = PBXGroup;
+			children = (
+				8CBFE3F91F5FDC3A00A43D98 /* MXBundleHelper.h */,
+				8CBFE3FA1F5FDC3A00A43D98 /* MXBundleHelper.m */,
+				8CBFE3FB1F5FDC3A00A43D98 /* MXFileHelper.h */,
+				8CBFE3FC1F5FDC3A00A43D98 /* MXFileHelper.m */,
+				8CBFE3FD1F5FDC3A00A43D98 /* MXUpdateHelper.h */,
+				8CBFE3FE1F5FDC3A00A43D98 /* MXUpdateHelper.m */,
+			);
+			name = DownLoad;
+			sourceTree = "<group>";
+		};
+		8CBFE4031F5FDC6C00A43D98 /* Zip */ = {
+			isa = PBXGroup;
+			children = (
+				8CBFE3C51F5FDA9000A43D98 /* aes */,
+				8CBFE3DB1F5FDA9000A43D98 /* Common.h */,
+				8CBFE3DC1F5FDA9000A43D98 /* minizip */,
+				8CBFE3E61F5FDA9000A43D98 /* SSZipArchive.h */,
+				8CBFE3E71F5FDA9000A43D98 /* SSZipArchive.m */,
+			);
+			name = Zip;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -170,6 +304,7 @@
 			files = (
 				8C46271C1E497775002A60BC /* LaunchScreen.storyboard in Resources */,
 				8C4627191E497775002A60BC /* Assets.xcassets in Resources */,
+				8CEF7A4D1F6B9E28005F46BB /* jsbundle.zip in Resources */,
 				8C4627171E497775002A60BC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -183,9 +318,14 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RN/Pods-RN-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/React/React.framework",
+				"${BUILT_PRODUCTS_DIR}/Yoga/yoga.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/React.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/yoga.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -213,13 +353,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RN-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -229,11 +372,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CBFE3EF1F5FDA9000A43D98 /* hmac.c in Sources */,
+				8CBFE3F11F5FDA9000A43D98 /* pwd2key.c in Sources */,
+				8CBFE3F41F5FDA9000A43D98 /* mztools.c in Sources */,
+				8CBFE3FF1F5FDC3A00A43D98 /* MXBundleHelper.m in Sources */,
+				8CBFE3EE1F5FDA9000A43D98 /* fileenc.c in Sources */,
 				8C4627141E497775002A60BC /* ViewController.swift in Sources */,
+				8CBFE3F71F5FDA9000A43D98 /* SSZipArchive.m in Sources */,
+				8CBFE3F21F5FDA9000A43D98 /* sha1.c in Sources */,
+				8CBFE3EC1F5FDA9000A43D98 /* aestab.c in Sources */,
 				8C4627121E497775002A60BC /* AppDelegate.swift in Sources */,
+				8CBFE4011F5FDC3A00A43D98 /* MXUpdateHelper.m in Sources */,
 				8C46272C1E499D3A002A60BC /* RNView.swift in Sources */,
 				8CC5BA261E7011E900243426 /* OriginController.swift in Sources */,
 				8CC5BA171E700EE200243426 /* RTModule.m in Sources */,
+				8CBFE3F51F5FDA9000A43D98 /* unzip.c in Sources */,
+				8CBFE3F61F5FDA9000A43D98 /* zip.c in Sources */,
+				8CBFE3EB1F5FDA9000A43D98 /* aeskey.c in Sources */,
+				8CBFE3EA1F5FDA9000A43D98 /* aescrypt.c in Sources */,
+				8CBFE4001F5FDC3A00A43D98 /* MXFileHelper.m in Sources */,
+				8CBFE3ED1F5FDA9000A43D98 /* entropy.c in Sources */,
+				8CBFE3F01F5FDA9000A43D98 /* prng.c in Sources */,
+				8CBFE3F31F5FDA9000A43D98 /* ioapi.c in Sources */,
 				8C46272A1E49972D002A60BC /* RNController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

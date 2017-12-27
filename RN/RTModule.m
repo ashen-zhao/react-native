@@ -7,7 +7,7 @@
 //
 
 #import "RTModule.h"
-#import "RCTBridge.h"
+#import <React/RCTConvert.h>
 #import "RCTBridgeModule.h"
 
 
@@ -16,12 +16,12 @@
 @end
 
 @implementation RTModule
-    
-    RCT_EXPORT_MODULE(RTModule)
-    RCT_EXPORT_METHOD(RNOpenOneVC:(NSString *)msg){
-        dispatch_async(dispatch_get_main_queue(), ^{
-            [[NSNotificationCenter defaultCenter]postNotificationName:@"RntoOrigin" object:msg];
-        });
-    }
-    
-    @end
+
+RCT_EXPORT_MODULE(RTModule)
+RCT_EXPORT_METHOD(RNOpenOneVC:(NSString *)msg){
+    dispatch_async(dispatch_get_main_queue(), ^{
+        [[NSNotificationCenter defaultCenter]postNotificationName:@"RntoOrigin" object:msg];
+    });
+}
+
+@end
